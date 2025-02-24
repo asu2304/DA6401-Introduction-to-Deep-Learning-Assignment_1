@@ -1,0 +1,29 @@
+{
+  "os":  "Windows-11-10.0.26100-SP0",
+  "python":  "CPython 3.12.7",
+  "startedAt":  "2025-02-24T16:02:57.825047Z",
+  "program":  "OneDrive/Documents/GitHub/Assignment_1_Deep_Learning/tentative_code.ipynb",
+  "git":  {
+    "remote":  "https://github.com/asu2304/Assignment_1_Deep_Learning.git",
+    "commit":  "051f51d14ef63b0f97ee4c69bceca0e876d4bce9"
+  },
+  "email":  "da24s006@smail.iitm.ac.in",
+  "root":  "C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning",
+  "host":  "AshutoshPatidar",
+  "executable":  "C:\\Anaconda3\\python.exe",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "511102152704",
+      "used":  "364983308288"
+    }
+  },
+  "memory":  {
+    "total":  "6313168896"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  }
+}

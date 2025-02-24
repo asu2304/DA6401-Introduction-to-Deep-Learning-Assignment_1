@@ -1,0 +1,10 @@
+{"time":"2025-02-24T21:32:57.9065205+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250224_213257-q69pba5m\\logs\\debug-core.log"}
+{"time":"2025-02-24T21:32:59.2632525+05:30","level":"INFO","msg":"created new stream","id":"q69pba5m"}
+{"time":"2025-02-24T21:32:59.2646971+05:30","level":"INFO","msg":"stream: started","id":"q69pba5m"}
+{"time":"2025-02-24T21:32:59.2687382+05:30","level":"INFO","msg":"handler: started","stream_id":"q69pba5m"}
+{"time":"2025-02-24T21:32:59.2697173+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"q69pba5m"}
+{"time":"2025-02-24T21:32:59.2697173+05:30","level":"INFO","msg":"sender: started","stream_id":"q69pba5m"}
+{"time":"2025-02-24T21:32:59.9509954+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-24T21:33:03.9018586+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-24T21:33:04.0139278+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-24T21:33:04.030469+05:30","level":"INFO","msg":"Pausing system monitor"}
