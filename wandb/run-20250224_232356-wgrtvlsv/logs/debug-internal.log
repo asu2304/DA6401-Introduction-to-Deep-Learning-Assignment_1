@@ -1,0 +1,16 @@
+{"time":"2025-02-24T23:23:56.2131309+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250224_232356-wgrtvlsv\\logs\\debug-core.log"}
+{"time":"2025-02-24T23:23:57.5362706+05:30","level":"INFO","msg":"created new stream","id":"wgrtvlsv"}
+{"time":"2025-02-24T23:23:57.5368436+05:30","level":"INFO","msg":"handler: started","stream_id":"wgrtvlsv"}
+{"time":"2025-02-24T23:23:57.5368436+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"wgrtvlsv"}
+{"time":"2025-02-24T23:23:57.5368436+05:30","level":"INFO","msg":"sender: started","stream_id":"wgrtvlsv"}
+{"time":"2025-02-24T23:23:57.5374051+05:30","level":"INFO","msg":"stream: started","id":"wgrtvlsv"}
+{"time":"2025-02-24T23:23:58.0076913+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-24T23:24:09.0164502+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-24T23:24:09.0175305+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-24T23:24:10.0262447+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.7022122},{"desc":"uploading wandb-summary.json","runtime_seconds":0.7022122,"progress":"334B/334B"},{"desc":"uploading config.yaml","runtime_seconds":0.4001481,"progress":"583B/583B"}],"total_operations":3}}
+{"time":"2025-02-24T23:24:10.6319094+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-24T23:24:12.0099118+05:30","level":"INFO","msg":"stream: closing","id":"wgrtvlsv"}
+{"time":"2025-02-24T23:24:12.0099118+05:30","level":"INFO","msg":"handler: closed","stream_id":"wgrtvlsv"}
+{"time":"2025-02-24T23:24:12.0099118+05:30","level":"INFO","msg":"sender: closed","stream_id":"wgrtvlsv"}
+{"time":"2025-02-24T23:24:12.0099118+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"wgrtvlsv"}
+{"time":"2025-02-24T23:24:12.010496+05:30","level":"INFO","msg":"stream: closed","id":"wgrtvlsv"}

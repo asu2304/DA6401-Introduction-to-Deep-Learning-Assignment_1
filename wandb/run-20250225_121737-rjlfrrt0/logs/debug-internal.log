@@ -1,0 +1,26 @@
+{"time":"2025-02-25T12:17:37.3904502+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250225_121737-rjlfrrt0\\logs\\debug-core.log"}
+{"time":"2025-02-25T12:17:38.0063995+05:30","level":"INFO","msg":"created new stream","id":"rjlfrrt0"}
+{"time":"2025-02-25T12:17:38.007492+05:30","level":"INFO","msg":"stream: started","id":"rjlfrrt0"}
+{"time":"2025-02-25T12:17:38.0069263+05:30","level":"INFO","msg":"handler: started","stream_id":"rjlfrrt0"}
+{"time":"2025-02-25T12:17:38.0069263+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rjlfrrt0"}
+{"time":"2025-02-25T12:17:38.007492+05:30","level":"INFO","msg":"sender: started","stream_id":"rjlfrrt0"}
+{"time":"2025-02-25T12:17:38.4248355+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-25T12:17:40.2162844+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-25T12:17:40.2327512+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-25T12:17:40.6583771+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-25T12:17:40.676176+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-25T12:17:40.6975465+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-25T12:17:40.733159+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-25T12:17:40.7486025+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-25T12:17:41.2287455+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-25T12:17:41.243507+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-25T12:17:51.9682856+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-25T12:17:53.0434083+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-25T12:17:53.0489215+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-25T12:17:54.0733416+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media\\images\\unique_labels_plot_0_fa05a78e7e3a27ff8b7b.png","runtime_seconds":1.0510478,"progress":"29.7KB/29.7KB"},{"desc":"uploading output.log","runtime_seconds":0.7312437},{"desc":"uploading wandb-summary.json","runtime_seconds":0.7312437,"progress":"332B/332B"},{"desc":"uploading config.yaml","runtime_seconds":0.4631523,"progress":"583B/583B"}],"total_operations":4}}
+{"time":"2025-02-25T12:17:54.8741198+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-25T12:17:56.215874+05:30","level":"INFO","msg":"stream: closing","id":"rjlfrrt0"}
+{"time":"2025-02-25T12:17:56.215874+05:30","level":"INFO","msg":"handler: closed","stream_id":"rjlfrrt0"}
+{"time":"2025-02-25T12:17:56.215874+05:30","level":"INFO","msg":"sender: closed","stream_id":"rjlfrrt0"}
+{"time":"2025-02-25T12:17:56.215874+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"rjlfrrt0"}
+{"time":"2025-02-25T12:17:56.2164866+05:30","level":"INFO","msg":"stream: closed","id":"rjlfrrt0"}
