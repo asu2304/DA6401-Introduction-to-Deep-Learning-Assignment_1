@@ -18,3 +18,25 @@
 {"time":"2025-03-02T20:01:17.8202065+05:30","level":"INFO","msg":"Pausing system monitor"}
 {"time":"2025-03-02T20:01:18.048965+05:30","level":"INFO","msg":"Resuming system monitor"}
 {"time":"2025-03-02T20:01:18.1797583+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-02T21:03:16.924365+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/koheo9j3/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-02T21:03:19.4049166+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/koheo9j3/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-02T22:02:38.1272437+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-02T22:02:44.6994275+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-02T22:02:44.7566106+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-02T22:02:44.9515224+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-02T22:02:45.0414363+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-02T22:02:45.3038746+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-02T22:02:45.3365565+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-02T22:02:45.9220748+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-02T22:02:46.0032498+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-02T22:02:46.0728081+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-02T22:02:46.1121878+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-02T22:02:47.7291492+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-02T22:02:47.7327388+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-02T22:02:48.7667284+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.1083273,"progress":"775B/775B"}],"total_operations":1}}
+{"time":"2025-03-02T22:02:49.866265+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-02T22:02:51.8300543+05:30","level":"INFO","msg":"stream: closing","id":"koheo9j3"}
+{"time":"2025-03-02T22:02:51.8306213+05:30","level":"INFO","msg":"handler: closed","stream_id":"koheo9j3"}
+{"time":"2025-03-02T22:02:51.8306213+05:30","level":"INFO","msg":"sender: closed","stream_id":"koheo9j3"}
+{"time":"2025-03-02T22:02:51.8306213+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"koheo9j3"}
+{"time":"2025-03-02T22:02:51.8312025+05:30","level":"INFO","msg":"stream: closed","id":"koheo9j3"}
