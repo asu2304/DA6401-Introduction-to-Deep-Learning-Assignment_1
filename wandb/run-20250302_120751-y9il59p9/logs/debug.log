@@ -1,0 +1,17 @@
+2025-03-02 12:07:51,447 INFO    MainThread:22468 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250302_120751-y9il59p9\logs\debug.log
+2025-03-02 12:07:51,448 INFO    MainThread:22468 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250302_120751-y9il59p9\logs\debug-internal.log
+2025-03-02 12:07:51,448 INFO    MainThread:22468 [wandb_init.py:init():761] calling init triggers
+2025-03-02 12:07:51,449 INFO    MainThread:22468 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-02 12:07:51,451 INFO    MainThread:22468 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-02 12:07:53,791 INFO    MainThread:22468 [wandb_run.py:_finish():2112] finishing run da24s006-indian-institue-of-technology-madras-/Backprop_From_Scratch/7iy19zsb
+2025-03-02 12:07:53,792 INFO    MainThread:22468 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-02 12:07:53,792 INFO    MainThread:22468 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-02 12:07:53,793 INFO    MainThread:22468 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-02 12:07:53,793 INFO    MainThread:22468 [wandb_run.py:_atexit_cleanup():2342] got exitcode: 0
+2025-03-02 12:07:53,794 INFO    MainThread:22468 [wandb_run.py:_restore():2324] restore
+2025-03-02 12:07:53,795 INFO    MainThread:22468 [wandb_run.py:_restore():2330] restore done
+2025-03-02 12:07:56,187 INFO    MsgRouterThr:22468 [mailbox.py:close():115] Closing mailbox, abandoning 1 handles.
+2025-03-02 12:07:56,189 INFO    MainThread:22468 [wandb_run.py:_footer_history_summary_info():3958] rendering history
+2025-03-02 12:07:56,190 INFO    MainThread:22468 [wandb_run.py:_footer_history_summary_info():3990] rendering summary
+2025-03-02 12:07:56,190 INFO    MainThread:22468 [wandb_run.py:_footer_sync_info():3919] logging synced files
