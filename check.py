@@ -153,9 +153,6 @@ wandb.init(project='backprop_scratch',
 
 print(wandb.config)
 
-
-
-
 config = wandb.config
 
 # now let's create and train the network
