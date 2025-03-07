@@ -567,3 +567,92 @@ epoch: 47, train_loss:0.5229, val_accuracy: 0.8061
 epoch: 48, train_loss:0.5355, val_accuracy: 0.7992
 epoch: 49, train_loss:0.5405, val_accuracy: 0.7977
 test_accuracy: 0.7904
+{'Learning_rate': 0.001, 'epochs': 50, 'batch_size': 32, 'layer_size': [784, 128, 64, 10]}
+{'Learning_rate': 0.001, 'epochs': 50, 'batch_size': 32, 'layer_size': [784, 128, 64, 10]}
+{'Learning_rate': 0.001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'NAG'}
+{'Learning_rate': 0.001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'NAG'}
+epoch: 0, train_loss:2.1025, val_accuracy: 0.3161
+epoch: 1, train_loss:1.7269, val_accuracy: 0.4003
+epoch: 2, train_loss:1.5439, val_accuracy: 0.4730
+epoch: 3, train_loss:1.4084, val_accuracy: 0.5463
+epoch: 4, train_loss:1.3103, val_accuracy: 0.5685
+epoch: 5, train_loss:1.2324, val_accuracy: 0.5749
+epoch: 6, train_loss:1.1700, val_accuracy: 0.5952
+epoch: 7, train_loss:1.1078, val_accuracy: 0.6372
+epoch: 8, train_loss:1.0719, val_accuracy: 0.6542
+epoch: 9, train_loss:1.0363, val_accuracy: 0.6589
+test_accuracy: 0.6453
+{'Learning_rate': 0.001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'NAG'}
+epoch: 0, train_loss:1.2887, val_accuracy: 0.7382
+epoch: 1, train_loss:0.7979, val_accuracy: 0.7588
+epoch: 2, train_loss:0.6806, val_accuracy: 0.7886
+epoch: 3, train_loss:0.6394, val_accuracy: 0.7872
+epoch: 4, train_loss:0.6160, val_accuracy: 0.7870
+epoch: 5, train_loss:0.6118, val_accuracy: 0.7967
+epoch: 6, train_loss:0.6028, val_accuracy: 0.7935
+epoch: 7, train_loss:0.5995, val_accuracy: 0.7995
+epoch: 8, train_loss:0.5988, val_accuracy: 0.7664
+epoch: 9, train_loss:0.6185, val_accuracy: 0.7850
+test_accuracy: 0.7735
+{'Learning_rate': 0.001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'momentum sgd'}
+epoch: 0, train_loss:1.4487, val_accuracy: 0.7156
+epoch: 1, train_loss:0.8362, val_accuracy: 0.7644
+epoch: 2, train_loss:0.6962, val_accuracy: 0.7670
+epoch: 3, train_loss:0.6465, val_accuracy: 0.7863
+epoch: 4, train_loss:0.6242, val_accuracy: 0.7891
+epoch: 5, train_loss:0.6040, val_accuracy: 0.7954
+epoch: 6, train_loss:0.6017, val_accuracy: 0.7876
+epoch: 7, train_loss:0.5967, val_accuracy: 0.7960
+epoch: 8, train_loss:0.5955, val_accuracy: 0.7824
+epoch: 9, train_loss:0.5889, val_accuracy: 0.8007
+test_accuracy: 0.7898
+{'Learning_rate': 0.001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'RMS_Prop'}
+epoch: 0, train_loss:0.8067, val_accuracy: 0.7743
+epoch: 1, train_loss:0.5898, val_accuracy: 0.7970
+epoch: 2, train_loss:0.5587, val_accuracy: 0.7930
+epoch: 3, train_loss:0.5428, val_accuracy: 0.8018
+epoch: 4, train_loss:0.5212, val_accuracy: 0.8118
+epoch: 5, train_loss:0.5077, val_accuracy: 0.8114
+epoch: 6, train_loss:0.4991, val_accuracy: 0.8293
+epoch: 7, train_loss:0.4894, val_accuracy: 0.8244
+epoch: 8, train_loss:0.4808, val_accuracy: 0.8244
+epoch: 9, train_loss:0.4788, val_accuracy: 0.8334
+test_accuracy: 0.8153
+{'Learning_rate': 0.001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'Adam'}
+epoch: 0, train_loss:2.6505, val_accuracy: 0.0893
+epoch: 1, train_loss:2.6505, val_accuracy: 0.0893
+epoch: 2, train_loss:2.6504, val_accuracy: 0.0893
+epoch: 3, train_loss:2.6506, val_accuracy: 0.0893
+epoch: 4, train_loss:2.6504, val_accuracy: 0.0893
+epoch: 5, train_loss:2.6504, val_accuracy: 0.0893
+epoch: 6, train_loss:2.6505, val_accuracy: 0.0893
+epoch: 7, train_loss:2.6504, val_accuracy: 0.0893
+epoch: 8, train_loss:2.6505, val_accuracy: 0.0893
+epoch: 9, train_loss:2.6506, val_accuracy: 0.0893
+test_accuracy: 0.0903
+{'Learning_rate': 0.001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'Adam'}
+epoch: 0, train_loss:0.9364, val_accuracy: 0.6924
+epoch: 1, train_loss:0.7007, val_accuracy: 0.7297
+epoch: 2, train_loss:0.6925, val_accuracy: 0.7012
+epoch: 3, train_loss:0.6797, val_accuracy: 0.7497
+epoch: 4, train_loss:0.6578, val_accuracy: 0.7337
+epoch: 5, train_loss:0.6457, val_accuracy: 0.7539
+epoch: 6, train_loss:0.6488, val_accuracy: 0.7363
+epoch: 7, train_loss:0.6401, val_accuracy: 0.7534
+epoch: 8, train_loss:0.6363, val_accuracy: 0.7379
+epoch: 9, train_loss:0.6403, val_accuracy: 0.7555
+test_accuracy: 0.7462
+test_accuracy: 0.7462
+test_accuracy: 0.7462
+{'Learning_rate': 0.001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'Nadam'}
+epoch: 0, train_loss:0.9589, val_accuracy: 0.7109
+epoch: 1, train_loss:0.7314, val_accuracy: 0.7225
+epoch: 2, train_loss:0.7010, val_accuracy: 0.7108
+epoch: 3, train_loss:0.6955, val_accuracy: 0.7035
+epoch: 4, train_loss:0.6957, val_accuracy: 0.7218
+epoch: 5, train_loss:0.6983, val_accuracy: 0.7405
+epoch: 6, train_loss:0.6951, val_accuracy: 0.7447
+epoch: 7, train_loss:0.6681, val_accuracy: 0.7370
+epoch: 8, train_loss:0.6541, val_accuracy: 0.7480
+epoch: 9, train_loss:0.6488, val_accuracy: 0.7241
+test_accuracy: 0.7130
