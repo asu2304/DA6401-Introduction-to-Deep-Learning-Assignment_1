@@ -1,0 +1,214 @@
+2025-03-08 20:51:58,780 INFO    MainThread:13020 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250308_205158-ideicbzy\logs\debug.log
+2025-03-08 20:51:58,786 INFO    MainThread:13020 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250308_205158-ideicbzy\logs\debug-internal.log
+2025-03-08 20:51:58,792 INFO    MainThread:13020 [wandb_init.py:init():761] calling init triggers
+2025-03-08 20:51:58,796 INFO    MainThread:13020 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'Learning_rate': 0.001, 'epochs': 50, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'RMS_Prop', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'mean_squared', '_wandb': {}}
+2025-03-08 20:51:58,800 INFO    MainThread:13020 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 20:51:58,804 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set beta_1 = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 20:51:58,807 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb beta_1 0.9 None
+2025-03-08 20:51:58,812 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set beta_2 = 0.999 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 20:51:58,817 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb beta_2 0.999 None
+2025-03-08 20:51:58,822 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set loss_function = mean_squared - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 20:51:58,825 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb loss_function mean_squared None
+2025-03-08 20:51:59,229 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 20:51:59,234 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 20:51:59,288 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 20:51:59,310 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 20:51:59,318 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 20:52:34,761 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 20:52:35,246 INFO    MainThread:13020 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250308_205235-257ylrd6\logs\debug.log
+2025-03-08 20:52:35,251 INFO    MainThread:13020 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250308_205235-257ylrd6\logs\debug-internal.log
+2025-03-08 20:52:35,255 INFO    MainThread:13020 [wandb_init.py:init():761] calling init triggers
+2025-03-08 20:52:35,259 INFO    MainThread:13020 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'Learning_rate': 0.001, 'epochs': 50, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'RMS_Prop', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'mean_squared', '_wandb': {}}
+2025-03-08 20:52:35,264 INFO    MainThread:13020 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 20:52:35,269 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set beta_1 = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 20:52:35,274 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb beta_1 0.9 None
+2025-03-08 20:52:35,280 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set beta_2 = 0.999 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 20:52:35,286 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb beta_2 0.999 None
+2025-03-08 20:52:35,292 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set loss_function = mean_squared - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 20:52:35,295 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb loss_function mean_squared None
+2025-03-08 20:52:35,704 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 20:52:35,708 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 20:52:35,759 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 20:52:35,786 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 20:52:35,793 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 20:53:11,836 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 20:53:11,860 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 20:53:11,877 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 20:53:12,618 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 20:53:12,646 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 20:53:12,654 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 20:53:17,163 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 20:53:17,175 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 20:53:17,181 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 20:53:17,351 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 20:53:17,372 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 20:53:17,380 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 20:53:45,952 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 20:53:46,449 INFO    MainThread:13020 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250308_205346-4m2aahze\logs\debug.log
+2025-03-08 20:53:46,455 INFO    MainThread:13020 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250308_205346-4m2aahze\logs\debug-internal.log
+2025-03-08 20:53:46,460 INFO    MainThread:13020 [wandb_init.py:init():761] calling init triggers
+2025-03-08 20:53:46,464 INFO    MainThread:13020 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'Learning_rate': 0.001, 'epochs': 50, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'RMS_Prop', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'mean_squared', '_wandb': {}}
+2025-03-08 20:53:46,469 INFO    MainThread:13020 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 20:53:46,474 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set beta_1 = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 20:53:46,478 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb beta_1 0.9 None
+2025-03-08 20:53:46,484 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set beta_2 = 0.999 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 20:53:46,491 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb beta_2 0.999 None
+2025-03-08 20:53:46,495 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set loss_function = mean_squared - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 20:53:46,500 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb loss_function mean_squared None
+2025-03-08 20:53:46,824 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 20:53:46,830 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 20:53:46,877 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 20:53:46,900 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 20:53:46,905 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 20:54:04,671 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 20:54:05,178 INFO    MainThread:13020 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250308_205405-qwdzouid\logs\debug.log
+2025-03-08 20:54:05,184 INFO    MainThread:13020 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250308_205405-qwdzouid\logs\debug-internal.log
+2025-03-08 20:54:05,189 INFO    MainThread:13020 [wandb_init.py:init():761] calling init triggers
+2025-03-08 20:54:05,192 INFO    MainThread:13020 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'Learning_rate': 0.001, 'epochs': 50, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'RMS_Prop', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'mean_squared', '_wandb': {}}
+2025-03-08 20:54:05,196 INFO    MainThread:13020 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 20:54:05,201 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set beta_1 = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 20:54:05,204 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb beta_1 0.9 None
+2025-03-08 20:54:05,209 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set beta_2 = 0.999 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 20:54:05,212 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb beta_2 0.999 None
+2025-03-08 20:54:05,217 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set loss_function = mean_squared - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 20:54:05,220 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb loss_function mean_squared None
+2025-03-08 20:54:05,663 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 20:54:05,669 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 20:54:05,725 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 20:54:05,748 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 20:54:05,756 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 20:55:36,118 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 20:55:36,594 INFO    MainThread:13020 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250308_205536-cpmlys04\logs\debug.log
+2025-03-08 20:55:36,598 INFO    MainThread:13020 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250308_205536-cpmlys04\logs\debug-internal.log
+2025-03-08 20:55:36,601 INFO    MainThread:13020 [wandb_init.py:init():761] calling init triggers
+2025-03-08 20:55:36,604 INFO    MainThread:13020 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'Learning_rate': 0.001, 'epochs': 50, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'RMS_Prop', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'mean_squared', '_wandb': {}}
+2025-03-08 20:55:36,608 INFO    MainThread:13020 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 20:55:36,610 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set beta_1 = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 20:55:36,614 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb beta_1 0.9 None
+2025-03-08 20:55:36,617 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set beta_2 = 0.999 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 20:55:36,621 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb beta_2 0.999 None
+2025-03-08 20:55:36,624 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set loss_function = categorical_cross_entropy - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 20:55:36,628 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb loss_function categorical_cross_entropy None
+2025-03-08 20:55:44,705 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 20:55:44,711 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 20:55:44,783 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 20:55:44,808 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 20:55:44,815 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 20:56:17,552 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 20:56:18,024 INFO    MainThread:13020 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250308_205618-jb7e4x5e\logs\debug.log
+2025-03-08 20:56:18,029 INFO    MainThread:13020 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250308_205618-jb7e4x5e\logs\debug-internal.log
+2025-03-08 20:56:18,033 INFO    MainThread:13020 [wandb_init.py:init():761] calling init triggers
+2025-03-08 20:56:18,036 INFO    MainThread:13020 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'Learning_rate': 0.001, 'epochs': 50, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'RMS_Prop', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'mean_squared', '_wandb': {}}
+2025-03-08 20:56:18,041 INFO    MainThread:13020 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 20:56:18,044 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set beta_1 = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 20:56:18,048 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb beta_1 0.9 None
+2025-03-08 20:56:18,052 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set beta_2 = 0.999 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 20:56:18,056 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb beta_2 0.999 None
+2025-03-08 20:56:18,059 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set loss_function = categorical_cross_entropy - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 20:56:18,063 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb loss_function categorical_cross_entropy None
+2025-03-08 20:56:24,902 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 20:56:24,913 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 20:56:24,998 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 20:56:25,020 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 20:56:25,028 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 20:57:38,388 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 20:57:38,943 INFO    MainThread:13020 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250308_205738-4xjxj9qg\logs\debug.log
+2025-03-08 20:57:38,949 INFO    MainThread:13020 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250308_205738-4xjxj9qg\logs\debug-internal.log
+2025-03-08 20:57:38,954 INFO    MainThread:13020 [wandb_init.py:init():761] calling init triggers
+2025-03-08 20:57:38,960 INFO    MainThread:13020 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'Learning_rate': 0.001, 'epochs': 50, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'RMS_Prop', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'mean_squared', '_wandb': {}}
+2025-03-08 20:57:38,966 INFO    MainThread:13020 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 20:57:38,971 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set beta_1 = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 20:57:38,977 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb beta_1 0.9 None
+2025-03-08 20:57:38,983 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set beta_2 = 0.999 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 20:57:38,988 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb beta_2 0.999 None
+2025-03-08 20:57:38,994 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set loss_function = mean_squared - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 20:57:38,999 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb loss_function mean_squared None
+2025-03-08 20:57:42,756 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 20:57:42,761 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 20:57:42,841 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 20:57:42,866 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 20:57:42,874 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 22:01:54,042 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 22:01:55,374 INFO    MainThread:13020 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250308_220155-m4jbips4\logs\debug.log
+2025-03-08 22:01:55,379 INFO    MainThread:13020 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250308_220155-m4jbips4\logs\debug-internal.log
+2025-03-08 22:01:55,387 INFO    MainThread:13020 [wandb_init.py:init():761] calling init triggers
+2025-03-08 22:01:55,390 INFO    MainThread:13020 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'Learning_rate': 0.001, 'epochs': 50, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'RMS_Prop', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'mean_squared', '_wandb': {}}
+2025-03-08 22:01:55,394 INFO    MainThread:13020 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 22:01:55,414 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set beta_1 = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 22:01:55,422 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb beta_1 0.9 None
+2025-03-08 22:01:55,430 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set beta_2 = 0.999 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 22:01:55,437 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb beta_2 0.999 None
+2025-03-08 22:01:55,442 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set loss_function = mean_squared - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 22:01:55,447 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb loss_function mean_squared None
+2025-03-08 22:01:57,041 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 22:01:57,046 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 22:01:57,123 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 22:01:57,182 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 22:01:57,189 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 22:04:39,248 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 22:04:40,155 INFO    MainThread:13020 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250308_220440-6ms1y8tt\logs\debug.log
+2025-03-08 22:04:40,161 INFO    MainThread:13020 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250308_220440-6ms1y8tt\logs\debug-internal.log
+2025-03-08 22:04:40,168 INFO    MainThread:13020 [wandb_init.py:init():761] calling init triggers
+2025-03-08 22:04:40,172 INFO    MainThread:13020 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'Learning_rate': 0.001, 'epochs': 50, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'RMS_Prop', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'mean_squared', '_wandb': {}}
+2025-03-08 22:04:40,176 INFO    MainThread:13020 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 22:04:40,185 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set beta_1 = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 22:04:40,190 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb beta_1 0.9 None
+2025-03-08 22:04:40,196 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set beta_2 = 0.999 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 22:04:40,202 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb beta_2 0.999 None
+2025-03-08 22:04:40,207 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set loss_function = mean_squared - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 22:04:40,210 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb loss_function mean_squared None
+2025-03-08 22:05:26,776 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 22:05:26,783 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 22:05:26,829 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 22:05:26,879 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 22:05:26,886 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 22:06:36,782 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 22:06:37,270 INFO    MainThread:13020 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250308_220637-29jpnq2b\logs\debug.log
+2025-03-08 22:06:37,276 INFO    MainThread:13020 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250308_220637-29jpnq2b\logs\debug-internal.log
+2025-03-08 22:06:37,280 INFO    MainThread:13020 [wandb_init.py:init():761] calling init triggers
+2025-03-08 22:06:37,284 INFO    MainThread:13020 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'Learning_rate': 0.001, 'epochs': 50, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'RMS_Prop', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'mean_squared', '_wandb': {}}
+2025-03-08 22:06:37,288 INFO    MainThread:13020 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 22:06:37,292 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set beta_1 = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 22:06:37,296 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb beta_1 0.9 None
+2025-03-08 22:06:37,301 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set beta_2 = 0.999 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 22:06:37,306 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb beta_2 0.999 None
+2025-03-08 22:06:37,310 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 22:06:37,315 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb epochs 50 None
+2025-03-08 22:06:37,320 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set loss_function = mean_squared - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 22:06:37,323 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb loss_function mean_squared None
+2025-03-08 22:11:20,004 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 22:11:20,045 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 22:11:20,132 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 22:11:20,193 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 22:11:20,202 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 22:12:57,188 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 22:12:57,210 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 22:12:57,217 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 22:13:06,063 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 22:13:06,082 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 22:13:06,088 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 22:13:23,006 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 22:13:23,024 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 22:13:23,031 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 22:13:47,628 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 22:13:47,651 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 22:13:47,656 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 22:14:00,725 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 22:14:00,742 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 22:14:00,747 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 22:14:24,174 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 22:14:24,196 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 22:14:24,201 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 22:14:35,369 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 22:14:35,388 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 22:14:35,396 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend

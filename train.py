@@ -1,5 +1,6 @@
 import numpy as np 
-
+from keras.datasets import fashion_mnist # used just to get the data
+import wandb
 
 # defining a backprop_from_scratch to do all.
 class backprop_from_scratch:
@@ -26,9 +27,10 @@ class backprop_from_scratch:
         self.weights_velocity = [np.zeros_like(w) for w in self.weights]
         self.bias_velocity = [np.zeros_like(b) for b in self.biases]
 
-        # setting the beta
+        # setting the beta with there default values
         self.beta_1 = 0.900
         self.beta_2 = 0.999
+     
         
     def initialize_params(self):
         # let's use He initialization for weights and set values of bias equals to zero
@@ -37,6 +39,7 @@ class backprop_from_scratch:
             b = np.zeros((1, self.layer_sizes[i+1]))
             self.weights.append(w) 
             self.biases.append(b) 
+            
             
     def forward_pass(self, data_X):
         neuron_outputs = [data_X]
@@ -57,7 +60,7 @@ class backprop_from_scratch:
         neuron_outputs.append(output)
         return neuron_outputs
 
-    
+
     def forward_pass_NAG(self, data_X):
         neuron_outputs = [data_X]
         # pass thorugh hidden layers
@@ -82,20 +85,23 @@ class backprop_from_scratch:
         neuron_outputs.append(output)
         return neuron_outputs
 
-    
+
     def sigmoid(self, X):
         # clipping it bw -500 to 500 
         return 1 / (1 + np.exp(-np.clip(X, -500, 500)))
     
+    
     def sigmoid_derivative(self, x):
         return x*(1-x) 
+        
         
     def softmax(self, X): 
         # clipping it for numerical stability
         exp_x = np.exp(X - np.max(X, axis = 1, keepdims=True))
         return exp_x/np.sum(exp_x, axis = 1, keepdims=True)
     
-    def backword_pass(self, X, y, neuron_outputs, learning_rate, t, optimizer):
+    
+    def backword_pass(self, X, y, neuron_outputs, learning_rate, t, optimizer): 
         
         # compute the gradient at given value of params
         batch_size = len(X)
@@ -195,7 +201,11 @@ class backprop_from_scratch:
             self.biases[i] -= self.bias_velocity[i] * learning_rate
             
     # function to train the network
-    def train(self, X_train, y_train, X_val, y_val, epochs, learning_rate, batch_size, optimizer):
+    def train(self, X_train, y_train, X_val, y_val, epochs=50, learning_rate=0.001, batch_size=32, optimizer="RMS_Prop", beta_1=0.900, beta_2=0.999): # setting RMS_Prop as default optimizer
+        
+        self.beta_1 = beta_1
+        self.beta_2 = beta_2
+        
         for epoch in range(epochs): 
             # first shuffle the training data
             # print(X_train.shape[0])
@@ -236,66 +246,67 @@ class backprop_from_scratch:
             wandb.log({'epoch': epoch , 'train_loss': average_loss, 'val_accuracy': validation_accuracy})
             print(f"epoch: {epoch}, train_loss:{average_loss:.4f}, val_accuracy: {validation_accuracy:.4f}")
             
+            
     def predict(self, X): 
         # this will predict class labels for the passed data
         neuron_outputs = self.forward_pass(X)
         return np.argmax(neuron_outputs[-1], axis=1)
 
 
+if __name__ == "__main__": # will run only when script will be executed directly
+    
+    wandb.login()
+    
+    (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
 
-from keras.datasets import fashion_mnist # used just to get the data
-(train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
+    # making the data ready to train the model
 
-# making the data ready to train the model
+    # Splitting the trainig data into train and validation
+    indices = np.arange(train_images.shape[0])
+    np.random.shuffle(indices)
+    train_size = 50000
 
-# Splitting the trainig data into train and validation
-indices = np.arange(train_images.shape[0])
-np.random.shuffle(indices)
-train_size = 50000
+    train_x = train_images[indices[:train_size]]
+    train_y = train_labels[indices[:train_size]]
+    val_x = train_images[indices[train_size:]]
+    val_y = train_labels[indices[train_size:]]
 
-train_x = train_images[indices[:train_size]]
-train_y = train_labels[indices[:train_size]]
-val_x = train_images[indices[train_size:]]
-val_y = train_labels[indices[train_size:]]
+    train_x = train_x.reshape(train_x.shape[0], -1)
+    val_x = val_x.reshape(val_x.shape[0], -1)
 
-train_x = train_x.reshape(train_x.shape[0], -1)
-val_x = val_x.reshape(val_x.shape[0], -1)
 
-# train_x.ravel()
-# val_y.ravel()
+    # converting y's into one hot vector
+    num_classes = 10
+    train_y = np.eye(num_classes)[train_y]
+    val_y = np.eye(num_classes)[val_y]
 
-# converting y's into one hot vector
-num_classes = 10
-train_y = np.eye(num_classes)[train_y]
-val_y = np.eye(num_classes)[val_y]
+    # let's do it for test data as well
+    test_images = test_images.reshape(test_images.shape[0], -1)
+    test_labels = np.eye(num_classes)[test_labels]
 
-# let's do it for test data as well
-test_images = test_images.reshape(test_images.shape[0], -1)
-test_labels = np.eye(num_classes)[test_labels]
 
-# initializing hyperparms in wandb
-wandb.init(project='backprop_scratch', 
-           config={ 'Learning_rate' : 0.001, 
-                    'epochs' : 50, 
-                    'batch_size' : 32, 
-                    'layer_size' : [784, 128, 64, 10],
-                  'optimizer': 'NAG',
-                  'beta': 0.90})
+    # initializing hyperparms in wandb
+    optimizers = ['sgd', 'momentum sgd','NAG','RMS_Prop','Adam','Nadam']
+    wandb.init(project='backprop_scratch', 
+            config={ 'Learning_rate' : 0.001, 
+                        'epochs' : 50, 
+                        'batch_size' : 32, 
+                        'layer_size' : [784, 128, 64, 10], 
+                    'optimizer': 'RMS_Prop',
+                    'beta_1': 0.900,         # beta 1 is for momentum sgd, NAG, RMS_Prop
+                    'beta_2': 0.999}         # use beta 2 for Nadam and Adam
+            ) # select optimizer from optimizer list up there 
 
-optimizers = ['sgd', 'momentum sgd','NAG','RMS_Prop','Adam','Nadam']
-config = wandb.config
-config.Learning_rate = 0.001
-config.optimizer = 'sgd'
-config.epochs = 10
-print(wandb.config)
+    config = wandb.config
+    print(wandb.config)
 
-# now let's create and train the network
-model = backprop_from_scratch(config.layer_size)
-model.train(train_x, train_y, val_x, val_y, config.epochs, config.Learning_rate, config.batch_size, config.optimizer)
+    # now let's create and train the network
+    model = backprop_from_scratch(config.layer_size)
+    model.train(train_x, train_y, val_x, val_y, config.epochs, config.Learning_rate, config.batch_size, config.optimizer, config.beta_1, config.beta_2)
 
-# now let's evaluate on the test set
-test_predictions = model.predict(test_images) 
-test_accuracy = np.mean(test_predictions == np.argmax(test_labels, axis = 1))
-print(f"test_accuracy:{test_accuracy: .4f}") 
-wandb.log({'test_accuracy': test_accuracy})
+    # now let's evaluate on the test set
+    test_predictions = model.predict(test_images) 
+    test_accuracy = np.mean(test_predictions == np.argmax(test_labels, axis = 1))
+    print(f"test_accuracy:{test_accuracy: .4f}") 
+    wandb.log({'test_accuracy': test_accuracy})
 

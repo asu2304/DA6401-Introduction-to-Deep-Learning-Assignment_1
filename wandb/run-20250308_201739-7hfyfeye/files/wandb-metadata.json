@@ -1,0 +1,31 @@
+{
+  "os":  "Windows-11-10.0.26100-SP0",
+  "python":  "CPython 3.12.7",
+  "startedAt":  "2025-03-08T14:47:39.590626Z",
+  "program":  "C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\casual.py",
+  "codePath":  "casual.py",
+  "git":  {
+    "remote":  "https://github.com/asu2304/DA6401-Introduction-to-Deep-Learning-Assignment_1.git",
+    "commit":  "0e8098daf682593acf012cf1b0c3f5dc9f015fbd"
+  },
+  "email":  "da24s006@smail.iitm.ac.in",
+  "root":  "C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning",
+  "host":  "AshutoshPatidar",
+  "executable":  "C:\\Anaconda3\\python.exe",
+  "codePathLocal":  "casual.py",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "511102152704",
+      "used":  "372990038016"
+    }
+  },
+  "memory":  {
+    "total":  "6313168896"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  }
+}

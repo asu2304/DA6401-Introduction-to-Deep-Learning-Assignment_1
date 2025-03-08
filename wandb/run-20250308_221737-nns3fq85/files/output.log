@@ -1,0 +1,3 @@
+{'Learning_rate': 0.001, 'epochs': 50, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'RMS_Prop', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'mean_squared'}
+epoch: 0, train_loss:0.3977, val_accuracy: 0.7756
+epoch: 1, train_loss:0.3094, val_accuracy: 0.7827

@@ -1,0 +1,27 @@
+{"time":"2025-03-08T22:17:38.0748773+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250308_221737-nns3fq85\\logs\\debug-core.log"}
+{"time":"2025-03-08T22:17:38.2111212+05:30","level":"INFO","msg":"created new stream","id":"nns3fq85"}
+{"time":"2025-03-08T22:17:38.2116668+05:30","level":"INFO","msg":"handler: started","stream_id":"nns3fq85"}
+{"time":"2025-03-08T22:17:38.21224+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"nns3fq85"}
+{"time":"2025-03-08T22:17:38.21224+05:30","level":"INFO","msg":"sender: started","stream_id":"nns3fq85"}
+{"time":"2025-03-08T22:17:38.21224+05:30","level":"INFO","msg":"stream: started","id":"nns3fq85"}
+{"time":"2025-03-08T22:17:38.6923925+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T22:17:58.6951344+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T22:17:58.7083453+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 17160"}
+{"time":"2025-03-08T22:18:08.6944909+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T22:18:08.7070223+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 17160"}
+{"time":"2025-03-08T22:18:18.6940669+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T22:18:18.7074067+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 17160"}
+{"time":"2025-03-08T22:18:28.6940411+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T22:18:28.7081044+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 17160"}
+{"time":"2025-03-08T22:18:38.6942026+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T22:18:38.7059398+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 17160"}
+{"time":"2025-03-08T22:18:48.694909+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T22:18:48.712843+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 17160"}
+{"time":"2025-03-08T22:18:58.6943266+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T22:18:58.7051829+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 17160"}
+{"time":"2025-03-08T22:19:08.6941154+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T22:19:08.7055405+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 17160"}
+{"time":"2025-03-08T22:19:18.6941493+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T22:19:18.7069049+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 17160"}
+{"time":"2025-03-08T22:19:28.6942463+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T22:19:28.7053865+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 17160"}
