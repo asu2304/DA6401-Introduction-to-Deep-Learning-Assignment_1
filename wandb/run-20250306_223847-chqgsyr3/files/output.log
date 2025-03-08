@@ -707,3 +707,14 @@ epoch: 7, train_loss:0.4902, val_accuracy: 0.8167
 epoch: 8, train_loss:0.4787, val_accuracy: 0.8204
 epoch: 9, train_loss:0.4758, val_accuracy: 0.8240
 test_accuracy: 0.8150
+{'Learning_rate': 0.001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'sgd'}
+epoch: 0, train_loss:2.1310, val_accuracy: 0.5757
+epoch: 1, train_loss:1.7980, val_accuracy: 0.6261
+epoch: 2, train_loss:1.5951, val_accuracy: 0.6426
+epoch: 3, train_loss:1.4327, val_accuracy: 0.6549
+epoch: 4, train_loss:1.2992, val_accuracy: 0.6731
+epoch: 5, train_loss:1.1915, val_accuracy: 0.6900
+epoch: 6, train_loss:1.1041, val_accuracy: 0.7048
+epoch: 7, train_loss:1.0335, val_accuracy: 0.7148
+epoch: 8, train_loss:0.9741, val_accuracy: 0.7309
+epoch: 9, train_loss:0.9247, val_accuracy: 0.7456

@@ -1,0 +1,17 @@
+2025-03-08 11:11:48,813 INFO    MainThread:13020 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250308_111148-iq6m380h\logs\debug.log
+2025-03-08 11:11:48,825 INFO    MainThread:13020 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250308_111148-iq6m380h\logs\debug-internal.log
+2025-03-08 11:11:48,835 INFO    MainThread:13020 [wandb_init.py:init():761] calling init triggers
+2025-03-08 11:11:48,840 INFO    MainThread:13020 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'Learning_rate': 0.001, 'epochs': 50, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'NAG', 'beta': 0.9, '_wandb': {}}
+2025-03-08 11:11:48,846 INFO    MainThread:13020 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 11:11:48,862 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set Learning_rate = 0.001 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 11:11:48,871 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb Learning_rate 0.001 None
+2025-03-08 11:11:48,881 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set optimizer = sgd - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 11:11:48,896 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb optimizer sgd None
+2025-03-08 11:11:48,912 INFO    MainThread:13020 [wandb_config.py:__setitem__():154] config set epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CB8F11D400>>
+2025-03-08 11:11:48,920 INFO    MainThread:13020 [wandb_run.py:_config_callback():1261] config_cb epochs 10 None
+2025-03-08 11:12:50,478 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 11:12:50,545 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 11:12:50,731 INFO    MainThread:13020 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 11:12:50,810 INFO    MainThread:13020 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 11:12:50,820 INFO    MainThread:13020 [wandb_init.py:_pause_backend():564] pausing backend
