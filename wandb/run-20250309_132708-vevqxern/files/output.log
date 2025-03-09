@@ -1,0 +1,31 @@
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'mean_squared', 'weight_decay': 0, 'activation_function': 'ReLu'}
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'mean_squared', 'weight_decay': 0, 'activation_function': 'ReLu'}
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'mean_squared', 'weight_decay': 0, 'activation_function': 'ReLu'}
+epoch: 0, train_loss:0.8694, val_accuracy: 0.1220
+epoch: 1, train_loss:0.8132, val_accuracy: 0.4155
+epoch: 2, train_loss:0.7597, val_accuracy: 0.3381
+epoch: 3, train_loss:0.7162, val_accuracy: 0.3190
+epoch: 4, train_loss:0.6787, val_accuracy: 0.4443
+epoch: 5, train_loss:0.6471, val_accuracy: 0.4913
+epoch: 6, train_loss:0.6171, val_accuracy: 0.4764
+epoch: 7, train_loss:0.5898, val_accuracy: 0.6001
+epoch: 8, train_loss:0.5609, val_accuracy: 0.4479
+epoch: 9, train_loss:0.5371, val_accuracy: 0.5187
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'mean_squared', 'weight_decay': 0, 'activation_function': 'ReLu'}
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'mean_squared', 'weight_decay': 0, 'activation_function': 'ReLu'}
+epoch: 0, train_loss:0.8489, val_accuracy: 0.3848
+epoch: 1, train_loss:0.7894, val_accuracy: 0.4074
+epoch: 2, train_loss:0.7441, val_accuracy: 0.4365
+epoch: 3, train_loss:0.7042, val_accuracy: 0.5137
+epoch: 4, train_loss:0.6703, val_accuracy: 0.5634
+epoch: 5, train_loss:0.6374, val_accuracy: 0.5910
+epoch: 6, train_loss:0.6149, val_accuracy: 0.6308
+epoch: 7, train_loss:0.5849, val_accuracy: 0.6566
+epoch: 8, train_loss:0.5550, val_accuracy: 0.6548
+epoch: 9, train_loss:0.5353, val_accuracy: 0.6656
+test_accuracy: 0.6627

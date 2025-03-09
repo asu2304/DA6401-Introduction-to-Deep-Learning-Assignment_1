@@ -1,0 +1,50 @@
+_wandb:
+    value:
+        cli_version: 0.19.7
+        m: []
+        python_version: 3.12.7
+        t:
+            "1":
+                - 2
+                - 3
+                - 49
+                - 55
+            "2":
+                - 2
+                - 3
+                - 49
+                - 55
+            "3":
+                - 16
+                - 19
+                - 23
+                - 55
+            "4": 3.12.7
+            "5": 0.19.7
+            "8":
+                - 3
+                - 5
+            "12": 0.19.7
+            "13": windows-amd64
+Learning_rate:
+    value: 0.001
+batch_size:
+    value: 32
+beta_1:
+    value: 0.9
+beta_2:
+    value: 0.999
+epochs:
+    value: 50
+layer_size:
+    value:
+        - 784
+        - 128
+        - 64
+        - 10
+loss_function:
+    value: mean_squared
+optimizer:
+    value: RMS_Prop
+weight_decay:
+    value: 0

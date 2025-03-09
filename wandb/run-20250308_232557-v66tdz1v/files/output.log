@@ -1,0 +1,12 @@
+{'Learning_rate': 0.001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'Nadam', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'mean_squared', 'weight_decay': 0}
+epoch: 0, train_loss:0.4655, val_accuracy: 0.7020
+epoch: 1, train_loss:0.3800, val_accuracy: 0.7222
+epoch: 2, train_loss:0.3714, val_accuracy: 0.7290
+epoch: 3, train_loss:0.3596, val_accuracy: 0.7180
+epoch: 4, train_loss:0.3732, val_accuracy: 0.7171
+epoch: 5, train_loss:0.3588, val_accuracy: 0.7697
+epoch: 6, train_loss:0.3465, val_accuracy: 0.7641
+epoch: 7, train_loss:0.3420, val_accuracy: 0.7134
+epoch: 8, train_loss:0.3366, val_accuracy: 0.7517
+epoch: 9, train_loss:0.3359, val_accuracy: 0.7668
+test_accuracy: 0.7498
