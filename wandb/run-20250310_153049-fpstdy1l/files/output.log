@@ -1,0 +1,12 @@
+{'Learning_rate': 0.001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'Adam', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0.0005, 'activation_function': 'relu'}
+epoch: 0, train_loss:0.5968, val_accuracy: 0.8574
+epoch: 1, train_loss:0.4590, val_accuracy: 0.8549
+epoch: 2, train_loss:0.4278, val_accuracy: 0.8695
+epoch: 3, train_loss:0.4106, val_accuracy: 0.8614
+epoch: 4, train_loss:0.3975, val_accuracy: 0.8692
+epoch: 5, train_loss:0.3875, val_accuracy: 0.8770
+epoch: 6, train_loss:0.3813, val_accuracy: 0.8812
+epoch: 7, train_loss:0.3747, val_accuracy: 0.8747
+epoch: 8, train_loss:0.3689, val_accuracy: 0.8784
+epoch: 9, train_loss:0.3632, val_accuracy: 0.8771
+test_accuracy: 0.8677

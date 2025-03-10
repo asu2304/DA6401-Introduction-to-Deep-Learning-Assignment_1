@@ -1,0 +1,108 @@
+2025-03-10 14:01:13,323 INFO    MainThread:24296 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250310_140113-87449rti\logs\debug.log
+2025-03-10 14:01:13,325 INFO    MainThread:24296 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250310_140113-87449rti\logs\debug-internal.log
+2025-03-10 14:01:13,329 INFO    MainThread:24296 [wandb_init.py:init():761] calling init triggers
+2025-03-10 14:01:13,333 INFO    MainThread:24296 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'Learning_rate': 0.001, 'epochs': 50, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'RMS_Prop', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'mean_squared', 'weight_decay': 0, 'activation_function': 'Sigmoid', '_wandb': {}}
+2025-03-10 14:01:13,337 INFO    MainThread:24296 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-10 14:01:13,343 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set beta_1 = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:01:13,348 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb beta_1 0.9 None
+2025-03-10 14:01:13,352 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set beta_2 = 0.999 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:01:13,356 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb beta_2 0.999 None
+2025-03-10 14:01:13,359 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set epochs = 30 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:01:13,362 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb epochs 30 None
+2025-03-10 14:01:13,366 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set loss_function = categorical_cross_entropy - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:01:13,369 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb loss_function categorical_cross_entropy None
+2025-03-10 14:01:13,372 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set weight_decay = 0 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:01:13,375 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb weight_decay 0 None
+2025-03-10 14:01:13,378 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set optimizer = Rms_Prop - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:01:13,381 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb optimizer Rms_Prop None
+2025-03-10 14:01:13,384 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set activation_function = Sigmoid - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:01:13,387 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb activation_function Sigmoid None
+2025-03-10 14:01:13,391 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:01:13,394 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb batch_size 32 None
+2025-03-10 14:04:01,909 INFO    MainThread:24296 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-10 14:04:01,934 INFO    MainThread:24296 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-10 14:04:02,113 INFO    MainThread:24296 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-10 14:04:03,575 INFO    MainThread:24296 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250310_140403-jolamzft\logs\debug.log
+2025-03-10 14:04:03,580 INFO    MainThread:24296 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250310_140403-jolamzft\logs\debug-internal.log
+2025-03-10 14:04:03,589 INFO    MainThread:24296 [wandb_init.py:init():761] calling init triggers
+2025-03-10 14:04:03,596 INFO    MainThread:24296 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'Learning_rate': 0.0001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'RMS_Prop', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'mean_squared', 'weight_decay': 0, 'activation_function': 'ReLu', 'initialization': 'He', '_wandb': {}}
+2025-03-10 14:04:03,610 INFO    MainThread:24296 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-10 14:04:03,621 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set beta_1 = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:04:03,626 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb beta_1 0.9 None
+2025-03-10 14:04:03,633 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set beta_2 = 0.999 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:04:03,640 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb beta_2 0.999 None
+2025-03-10 14:04:03,647 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set loss_function = categorical_cross_entropy - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:04:03,657 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb loss_function categorical_cross_entropy None
+2025-03-10 14:04:03,667 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set weight_decay = 0 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:04:03,673 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb weight_decay 0 None
+2025-03-10 14:04:03,678 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set optimizer = Rms_Prop - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:04:03,683 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb optimizer Rms_Prop None
+2025-03-10 14:04:03,688 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set activation_function = Sigmoid - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:04:03,695 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb activation_function Sigmoid None
+2025-03-10 14:04:03,704 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set Learning_rate = 0.001 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:04:03,710 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb Learning_rate 0.001 None
+2025-03-10 14:04:03,716 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:04:03,721 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb batch_size 32 None
+2025-03-10 14:04:03,726 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:04:03,735 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb epochs 10 None
+2025-03-10 14:04:17,900 INFO    MainThread:24296 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-10 14:04:17,904 INFO    MainThread:24296 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-10 14:04:18,002 INFO    MainThread:24296 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-10 14:04:18,026 INFO    MainThread:24296 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-10 14:04:18,033 INFO    MainThread:24296 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-10 14:04:41,286 INFO    MainThread:24296 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-10 14:04:42,350 INFO    MainThread:24296 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250310_140442-n0l9m681\logs\debug.log
+2025-03-10 14:04:42,356 INFO    MainThread:24296 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250310_140442-n0l9m681\logs\debug-internal.log
+2025-03-10 14:04:42,360 INFO    MainThread:24296 [wandb_init.py:init():761] calling init triggers
+2025-03-10 14:04:42,364 INFO    MainThread:24296 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'Learning_rate': 0.0001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'RMS_Prop', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'mean_squared', 'weight_decay': 0, 'activation_function': 'ReLu', '_wandb': {}}
+2025-03-10 14:04:42,369 INFO    MainThread:24296 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-10 14:04:42,373 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set beta_1 = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:04:42,377 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb beta_1 0.9 None
+2025-03-10 14:04:42,381 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set beta_2 = 0.999 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:04:42,384 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb beta_2 0.999 None
+2025-03-10 14:04:42,388 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set epochs = 30 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:04:42,392 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb epochs 30 None
+2025-03-10 14:04:42,396 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set loss_function = categorical_cross_entropy - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:04:42,399 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb loss_function categorical_cross_entropy None
+2025-03-10 14:04:42,405 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set weight_decay = 0 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:04:42,407 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb weight_decay 0 None
+2025-03-10 14:04:42,412 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set optimizer = RMS_Prop - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:04:42,415 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb optimizer RMS_Prop None
+2025-03-10 14:04:42,420 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set activation_function = Sigmoid - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:04:42,424 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb activation_function Sigmoid None
+2025-03-10 14:04:42,430 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set Learning_rate = 0.001 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:04:42,434 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb Learning_rate 0.001 None
+2025-03-10 14:04:42,439 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:04:42,444 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb batch_size 32 None
+2025-03-10 14:06:29,806 INFO    MainThread:24296 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-10 14:06:29,819 INFO    MainThread:24296 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-10 14:06:29,956 INFO    MainThread:24296 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-10 14:06:29,979 INFO    MainThread:24296 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-10 14:06:29,985 INFO    MainThread:24296 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-10 14:08:05,668 INFO    MainThread:24296 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-10 14:08:06,597 INFO    MainThread:24296 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250310_140806-zk3l84g6\logs\debug.log
+2025-03-10 14:08:06,601 INFO    MainThread:24296 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250310_140806-zk3l84g6\logs\debug-internal.log
+2025-03-10 14:08:06,603 INFO    MainThread:24296 [wandb_init.py:init():761] calling init triggers
+2025-03-10 14:08:06,606 INFO    MainThread:24296 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'Learning_rate': 0.001, 'epochs': 50, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'RMS_Prop', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'mean_squared', 'weight_decay': 0, 'activation_function': 'ReLu', '_wandb': {}}
+2025-03-10 14:08:06,609 INFO    MainThread:24296 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-10 14:08:06,612 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set beta_1 = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:08:06,615 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb beta_1 0.9 None
+2025-03-10 14:08:06,619 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set beta_2 = 0.999 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:08:06,622 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb beta_2 0.999 None
+2025-03-10 14:08:06,626 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:08:06,628 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb epochs 10 None
+2025-03-10 14:08:06,632 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set loss_function = categorical_cross_entropy - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:08:06,635 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb loss_function categorical_cross_entropy None
+2025-03-10 14:08:06,638 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set weight_decay = 0 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:08:06,641 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb weight_decay 0 None
+2025-03-10 14:08:06,644 INFO    MainThread:24296 [wandb_config.py:__setitem__():154] config set optimizer = RMS_Prop - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000274DA9E1FA0>>
+2025-03-10 14:08:06,647 INFO    MainThread:24296 [wandb_run.py:_config_callback():1261] config_cb optimizer RMS_Prop None
+2025-03-10 14:09:23,273 INFO    MainThread:24296 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-10 14:09:23,336 INFO    MainThread:24296 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-10 14:09:23,490 INFO    MainThread:24296 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-10 14:09:26,312 INFO    MainThread:24296 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-10 14:09:26,317 INFO    MainThread:24296 [wandb_init.py:_pause_backend():564] pausing backend

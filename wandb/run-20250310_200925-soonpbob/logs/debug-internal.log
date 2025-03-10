@@ -1,0 +1,17 @@
+{"time":"2025-03-10T20:09:25.2390014+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250310_200925-soonpbob\\logs\\debug-core.log"}
+{"time":"2025-03-10T20:09:25.3663846+05:30","level":"INFO","msg":"created new stream","id":"soonpbob"}
+{"time":"2025-03-10T20:09:25.3669395+05:30","level":"INFO","msg":"handler: started","stream_id":"soonpbob"}
+{"time":"2025-03-10T20:09:25.3669395+05:30","level":"INFO","msg":"stream: started","id":"soonpbob"}
+{"time":"2025-03-10T20:09:25.3669395+05:30","level":"INFO","msg":"sender: started","stream_id":"soonpbob"}
+{"time":"2025-03-10T20:09:25.3669395+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"soonpbob"}
+{"time":"2025-03-10T20:09:26.3444592+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-10T20:09:26.3450173+05:30","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 404 Not Found: {\"errors\":[{\"message\":\"entity da24s006-indian-institute-of-technology-madras- not found during upsertBucket\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-03-10T20:09:26.3709503+05:30","level":"INFO","msg":"stream: closing","id":"soonpbob"}
+{"time":"2025-03-10T20:09:26.3726659+05:30","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2025-03-10T20:09:26.7769795+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-10T20:09:26.7769795+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"entity da24s006-indian-institute-of-technology-madras- not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2025-03-10T20:09:26.7819508+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T20:09:26.7824893+05:30","level":"INFO","msg":"handler: closed","stream_id":"soonpbob"}
+{"time":"2025-03-10T20:09:26.7824893+05:30","level":"INFO","msg":"sender: closed","stream_id":"soonpbob"}
+{"time":"2025-03-10T20:09:26.7824893+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"soonpbob"}
+{"time":"2025-03-10T20:09:26.7830259+05:30","level":"INFO","msg":"stream: closed","id":"soonpbob"}

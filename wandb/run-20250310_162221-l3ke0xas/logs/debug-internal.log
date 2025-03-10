@@ -1,0 +1,15 @@
+{"time":"2025-03-10T16:22:21.7953893+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250310_162221-l3ke0xas\\logs\\debug-core.log"}
+{"time":"2025-03-10T16:22:21.929327+05:30","level":"INFO","msg":"created new stream","id":"l3ke0xas"}
+{"time":"2025-03-10T16:22:21.9298811+05:30","level":"INFO","msg":"handler: started","stream_id":"l3ke0xas"}
+{"time":"2025-03-10T16:22:21.9304108+05:30","level":"INFO","msg":"sender: started","stream_id":"l3ke0xas"}
+{"time":"2025-03-10T16:22:21.9298811+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"l3ke0xas"}
+{"time":"2025-03-10T16:22:21.9304108+05:30","level":"INFO","msg":"stream: started","id":"l3ke0xas"}
+{"time":"2025-03-10T16:22:22.4200987+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T16:31:34.1669543+05:30","level":"INFO","msg":"stream: closing","id":"l3ke0xas"}
+{"time":"2025-03-10T16:31:34.1675343+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T16:31:34.1769792+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T16:31:35.3463294+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T16:31:35.6945302+05:30","level":"INFO","msg":"handler: closed","stream_id":"l3ke0xas"}
+{"time":"2025-03-10T16:31:35.6945302+05:30","level":"INFO","msg":"sender: closed","stream_id":"l3ke0xas"}
+{"time":"2025-03-10T16:31:35.6945302+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"l3ke0xas"}
+{"time":"2025-03-10T16:31:35.6953709+05:30","level":"INFO","msg":"stream: closed","id":"l3ke0xas"}

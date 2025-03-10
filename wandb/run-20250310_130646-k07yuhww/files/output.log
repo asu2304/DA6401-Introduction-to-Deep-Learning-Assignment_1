@@ -1,0 +1,13 @@
+[34m[1mwandb[0m: [32m[41mERROR[0m Attempted to change value of key "epochs" from 10 to 30
+[34m[1mwandb[0m: [32m[41mERROR[0m If you really want to do this, pass allow_val_change=True to config.update()
+Traceback (most recent call last):
+  File "C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\problamatic_code.py", line 442, in <module>
+    config.epochs = 30
+    ^^^^^^^^^^^^^
+  File "C:\Users\Ashutosh Patidar\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_config.py", line 152, in __setitem__
+    key, val = self._sanitize(key, val)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ashutosh Patidar\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_config.py", line 288, in _sanitize
+    raise config_util.ConfigError(
+wandb.sdk.lib.config_util.ConfigError: Attempted to change value of key "epochs" from 10 to 30
+If you really want to do this, pass allow_val_change=True to config.update()

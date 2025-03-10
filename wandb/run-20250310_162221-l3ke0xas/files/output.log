@@ -1,0 +1,21 @@
+epoch: 0, train_loss: 0.2224, val_accuracy: 0.9575
+epoch: 1, train_loss: 0.0890, val_accuracy: 0.9693
+epoch: 2, train_loss: 0.0648, val_accuracy: 0.9699
+epoch: 3, train_loss: 0.0535, val_accuracy: 0.9736
+epoch: 4, train_loss: 0.0459, val_accuracy: 0.9701
+epoch: 5, train_loss: 0.0360, val_accuracy: 0.9746
+epoch: 6, train_loss: 0.0349, val_accuracy: 0.9672
+epoch: 7, train_loss: 0.0334, val_accuracy: 0.9721
+epoch: 8, train_loss: 0.0350, val_accuracy: 0.9729
+epoch: 9, train_loss: 0.0262, val_accuracy: 0.9767
+epoch: 10, train_loss: 0.0227, val_accuracy: 0.9726
+epoch: 11, train_loss: 0.0262, val_accuracy: 0.9708
+epoch: 12, train_loss: 0.0247, val_accuracy: 0.9713
+epoch: 13, train_loss: 0.0210, val_accuracy: 0.9715
+epoch: 14, train_loss: 0.0246, val_accuracy: 0.9754
+epoch: 15, train_loss: 0.0172, val_accuracy: 0.9642
+epoch: 16, train_loss: 0.0264, val_accuracy: 0.9632
+epoch: 17, train_loss: 0.0204, val_accuracy: 0.9746
+epoch: 18, train_loss: 0.0171, val_accuracy: 0.9636
+epoch: 19, train_loss: 0.0216, val_accuracy: 0.9772
+test_accuracy: 0.9761

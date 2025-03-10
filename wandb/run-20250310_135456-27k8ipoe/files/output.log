@@ -1,0 +1,72 @@
+{'Learning_rate': 0.001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'Rms_Prop', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'Sigmoid', 'initialization': 'He'}
+epoch: 0, train_loss:2.5758, val_accuracy: 0.0690
+epoch: 1, train_loss:2.5758, val_accuracy: 0.0690
+epoch: 2, train_loss:2.5760, val_accuracy: 0.0690
+epoch: 3, train_loss:2.5759, val_accuracy: 0.0690
+epoch: 4, train_loss:2.5758, val_accuracy: 0.0690
+epoch: 5, train_loss:2.5759, val_accuracy: 0.0690
+epoch: 6, train_loss:2.5758, val_accuracy: 0.0690
+epoch: 7, train_loss:2.5758, val_accuracy: 0.0690
+epoch: 8, train_loss:2.5759, val_accuracy: 0.0690
+epoch: 9, train_loss:2.5759, val_accuracy: 0.0690
+test_accuracy: 0.0712
+{'Learning_rate': 0.001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'Adam', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'Sigmoid', 'initialization': 'He'}
+epoch: 0, train_loss:0.6423, val_accuracy: 0.7892
+epoch: 1, train_loss:0.4012, val_accuracy: 0.7720
+epoch: 2, train_loss:0.3620, val_accuracy: 0.7918
+epoch: 3, train_loss:0.3361, val_accuracy: 0.7777
+epoch: 4, train_loss:0.3169, val_accuracy: 0.7785
+epoch: 5, train_loss:0.3025, val_accuracy: 0.7854
+epoch: 6, train_loss:0.2870, val_accuracy: 0.7736
+epoch: 7, train_loss:0.2771, val_accuracy: 0.7634
+epoch: 8, train_loss:0.2654, val_accuracy: 0.7702
+epoch: 9, train_loss:0.2561, val_accuracy: 0.7514
+test_accuracy: 0.7491
+{'Learning_rate': 0.001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'Rms_prop', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'Sigmoid', 'initialization': 'He'}
+epoch: 0, train_loss:2.5758, val_accuracy: 0.0690
+epoch: 1, train_loss:2.5758, val_accuracy: 0.0690
+epoch: 2, train_loss:2.5760, val_accuracy: 0.0690
+epoch: 3, train_loss:2.5759, val_accuracy: 0.0690
+epoch: 4, train_loss:2.5758, val_accuracy: 0.0690
+epoch: 5, train_loss:2.5759, val_accuracy: 0.0690
+epoch: 6, train_loss:2.5758, val_accuracy: 0.0690
+epoch: 7, train_loss:2.5758, val_accuracy: 0.0690
+epoch: 8, train_loss:2.5759, val_accuracy: 0.0690
+epoch: 9, train_loss:2.5759, val_accuracy: 0.0690
+test_accuracy: 0.0712
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'Rms_prop', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'Sigmoid', 'initialization': 'He'}
+epoch: 0, train_loss:0.6159, val_accuracy: 0.8391
+epoch: 1, train_loss:0.4048, val_accuracy: 0.8613
+epoch: 2, train_loss:0.3670, val_accuracy: 0.8539
+epoch: 3, train_loss:0.3443, val_accuracy: 0.8615
+epoch: 4, train_loss:0.3278, val_accuracy: 0.8762
+epoch: 5, train_loss:0.3140, val_accuracy: 0.8784
+epoch: 6, train_loss:0.3021, val_accuracy: 0.8562
+epoch: 7, train_loss:0.2913, val_accuracy: 0.8806
+epoch: 8, train_loss:0.2816, val_accuracy: 0.8830
+epoch: 9, train_loss:0.2732, val_accuracy: 0.8895
+test_accuracy: 0.8809
+usage: ipykernel_launcher.py [-h] [--dataset {mnist,fashion_mnist}] [--hidden_sizes HIDDEN_SIZES [HIDDEN_SIZES ...]]
+                             [--activation_function {sigmoid,relu,tanh,linear}] [--learning_rate LEARNING_RATE]
+                             [--epochs EPOCHS] [--batch_size BATCH_SIZE]
+                             [--optimizer {sgd,momentum sgd,nag,rms_prop,adam,nadam}] [--beta_1 BETA_1]
+                             [--beta_2 BETA_2] [--loss_function {categorical_cross_entropy,mean_squared_error}]
+                             [--weight_decay WEIGHT_DECAY] [--epsilon EPSILON]
+ipykernel_launcher.py: error: unrecognized arguments: -f C:\Users\Ashutosh Patidar\AppData\Roaming\jupyter\runtime\kernel-81958830-bda1-409d-85de-4425b3321a1b.json
+C:\Users\Ashutosh Patidar\AppData\Roaming\Python\Python312\site-packages\IPython\core\interactiveshell.py:3516: UserWarning: To exit: use 'exit', 'quit', or Ctrl-D.
+  warn("To exit: use 'exit', 'quit', or Ctrl-D.", stacklevel=1)
+usage: ipykernel_launcher.py [-h] [--dataset {mnist,fashion_mnist}] [--hidden_sizes HIDDEN_SIZES [HIDDEN_SIZES ...]]
+                             [--activation_function {sigmoid,relu,tanh,linear}] [--learning_rate LEARNING_RATE]
+                             [--epochs EPOCHS] [--batch_size BATCH_SIZE]
+                             [--optimizer {sgd,momentum sgd,nag,rms_prop,adam,nadam}] [--beta_1 BETA_1]
+                             [--beta_2 BETA_2] [--loss_function {categorical_cross_entropy,mean_squared_error}]
+                             [--weight_decay WEIGHT_DECAY] [--epsilon EPSILON]
+ipykernel_launcher.py: error: unrecognized arguments: -f C:\Users\Ashutosh Patidar\AppData\Roaming\jupyter\runtime\kernel-81958830-bda1-409d-85de-4425b3321a1b.json
+usage: ipykernel_launcher.py [-h] [--dataset {mnist,fashion_mnist}] [--hidden_sizes HIDDEN_SIZES [HIDDEN_SIZES ...]]
+                             [--activation_function {sigmoid,relu,tanh,linear}] [--learning_rate LEARNING_RATE]
+                             [--epochs EPOCHS] [--batch_size BATCH_SIZE]
+                             [--optimizer {sgd,momentum sgd,nag,rms_prop,adam,nadam}] [--beta_1 BETA_1]
+                             [--beta_2 BETA_2] [--loss_function {categorical_cross_entropy,mean_squared_error}]
+                             [--weight_decay WEIGHT_DECAY] [--epsilon EPSILON]
+ipykernel_launcher.py: error: unrecognized arguments: -f C:\Users\Ashutosh Patidar\AppData\Roaming\jupyter\runtime\kernel-81958830-bda1-409d-85de-4425b3321a1b.json

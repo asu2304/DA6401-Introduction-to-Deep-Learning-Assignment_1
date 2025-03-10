@@ -1,0 +1,17 @@
+{"time":"2025-03-10T20:08:09.0696759+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250310_200808-wqlvqund\\logs\\debug-core.log"}
+{"time":"2025-03-10T20:08:09.2074877+05:30","level":"INFO","msg":"created new stream","id":"wqlvqund"}
+{"time":"2025-03-10T20:08:09.2080426+05:30","level":"INFO","msg":"handler: started","stream_id":"wqlvqund"}
+{"time":"2025-03-10T20:08:09.2080426+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"wqlvqund"}
+{"time":"2025-03-10T20:08:09.2080426+05:30","level":"INFO","msg":"stream: started","id":"wqlvqund"}
+{"time":"2025-03-10T20:08:09.2080426+05:30","level":"INFO","msg":"sender: started","stream_id":"wqlvqund"}
+{"time":"2025-03-10T20:08:10.2562475+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-10T20:08:10.2562475+05:30","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 404 Not Found: {\"errors\":[{\"message\":\"entity da24s006-indian-institute-of-technology-madras not found during upsertBucket\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-03-10T20:08:10.2876297+05:30","level":"INFO","msg":"stream: closing","id":"wqlvqund"}
+{"time":"2025-03-10T20:08:10.288749+05:30","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2025-03-10T20:08:10.6842708+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-10T20:08:10.6842708+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"entity da24s006-indian-institute-of-technology-madras not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2025-03-10T20:08:10.6903169+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T20:08:10.6903169+05:30","level":"INFO","msg":"handler: closed","stream_id":"wqlvqund"}
+{"time":"2025-03-10T20:08:10.6903169+05:30","level":"INFO","msg":"sender: closed","stream_id":"wqlvqund"}
+{"time":"2025-03-10T20:08:10.6903169+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"wqlvqund"}
+{"time":"2025-03-10T20:08:10.6912178+05:30","level":"INFO","msg":"stream: closed","id":"wqlvqund"}

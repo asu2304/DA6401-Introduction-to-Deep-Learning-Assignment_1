@@ -1,0 +1,46 @@
+2025-03-10 20:08:08,945 INFO    MainThread:8460 [wandb_setup.py:_flush():67] Current SDK version is 0.19.7
+2025-03-10 20:08:08,946 INFO    MainThread:8460 [wandb_setup.py:_flush():67] Configure stats pid to 8460
+2025-03-10 20:08:08,946 INFO    MainThread:8460 [wandb_setup.py:_flush():67] Loading settings from C:\Users\Ashutosh Patidar\.config\wandb\settings
+2025-03-10 20:08:08,946 INFO    MainThread:8460 [wandb_setup.py:_flush():67] Loading settings from C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\settings
+2025-03-10 20:08:08,946 INFO    MainThread:8460 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-10 20:08:08,946 INFO    MainThread:8460 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250310_200808-wqlvqund\logs\debug.log
+2025-03-10 20:08:08,947 INFO    MainThread:8460 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\Ashutosh Patidar\OneDrive\Documents\GitHub\Assignment_1_Deep_Learning\wandb\run-20250310_200808-wqlvqund\logs\debug-internal.log
+2025-03-10 20:08:08,947 INFO    MainThread:8460 [wandb_init.py:init():761] calling init triggers
+2025-03-10 20:08:08,948 INFO    MainThread:8460 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'wandb_project': 'experiment1', 'wandb_entity': 'da24s006-indian-institute-of-technology-madras', 'dataset': 'mnist', 'epochs': 10, 'batch_size': 32, 'loss': 'cross_entropy', 'optimizer': 'adam', 'learning_rate': 0.001, 'momentum': 0.9, 'beta': 0.9, 'beta1': 0.9, 'beta2': 0.999, 'epsilon': 1e-08, 'weight_decay': 0.001, 'weight_init': 'Xavier', 'num_layers': 2, 'hidden_size': 256, 'activation': 'ReLU', '_wandb': {}}
+2025-03-10 20:08:08,948 INFO    MainThread:8460 [wandb_init.py:init():784] starting backend
+2025-03-10 20:08:08,948 INFO    MainThread:8460 [wandb_init.py:init():788] sending inform_init request
+2025-03-10 20:08:09,057 INFO    MainThread:8460 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-03-10 20:08:09,059 INFO    MainThread:8460 [wandb_init.py:init():803] backend started and connected
+2025-03-10 20:08:09,065 INFO    MainThread:8460 [wandb_init.py:init():896] updated telemetry
+2025-03-10 20:08:09,776 INFO    MainThread:8460 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-03-10 20:08:10,257 ERROR   MainThread:8460 [wandb_init.py:init():1481] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\Ashutosh Patidar\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 1471, in init
+    return wi.init(run_settings, run_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ashutosh Patidar\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 968, in init
+    raise error
+wandb.errors.errors.CommError: failed to upsert bucket: returned error 404 Not Found: {"errors":[{"message":"entity da24s006-indian-institute-of-technology-madras not found during upsertBucket","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2025-03-10 20:08:10,288 WARNING MsgRouterThr:8460 [router.py:message_loop():77] message_loop has been closed
+Traceback (most recent call last):
+  File "C:\Users\Ashutosh Patidar\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\interface\router_sock.py", line 28, in _read_message
+    resp = self._sock_client.read_server_response(timeout=1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ashutosh Patidar\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\sock_client.py", line 285, in read_server_response
+    data = self._read_packet_bytes(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ashutosh Patidar\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\sock_client.py", line 270, in _read_packet_bytes
+    raise SockClientClosedError
+wandb.sdk.lib.sock_client.SockClientClosedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ashutosh Patidar\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\interface\router.py", line 70, in message_loop
+    msg = self._read_message()
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ashutosh Patidar\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\interface\router_sock.py", line 30, in _read_message
+    raise MessageRouterClosedError from e
+wandb.sdk.interface.router.MessageRouterClosedError
+2025-03-10 20:08:10,292 INFO    MsgRouterThr:8460 [mailbox.py:close():115] Closing mailbox, abandoning 0 handles.

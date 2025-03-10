@@ -1,0 +1,48 @@
+{
+  "os":  "Windows-11-10.0.26100-SP0",
+  "python":  "CPython 3.12.7",
+  "startedAt":  "2025-03-10T11:07:50.008657Z",
+  "args":  [
+    "--dataset",
+    "fashion_mnist",
+    "--hidden_sizes",
+    "256",
+    "128",
+    "--activation_function",
+    "relu",
+    "--learning_rate",
+    "0.005",
+    "--epochs",
+    "10",
+    "--batch_size",
+    "64",
+    "--optimizer",
+    "adam"
+  ],
+  "program":  "C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\ai_final.py",
+  "codePath":  "ai_final.py",
+  "git":  {
+    "remote":  "https://github.com/asu2304/DA6401-Introduction-to-Deep-Learning-Assignment_1.git",
+    "commit":  "94716ff14cace42aa3e40bf638de90d44e0203a7"
+  },
+  "email":  "da24s006@smail.iitm.ac.in",
+  "root":  "C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning",
+  "host":  "AshutoshPatidar",
+  "executable":  "C:\\Anaconda3\\python.exe",
+  "codePathLocal":  "ai_final.py",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "511102152704",
+      "used":  "368728952832"
+    }
+  },
+  "memory":  {
+    "total":  "6313168896"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  }
+}
