@@ -1,0 +1,16 @@
+{"time":"2025-03-15T20:50:42.4837782+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_205042-g2v16hmx\\logs\\debug-core.log"}
+{"time":"2025-03-15T20:50:42.6153884+05:30","level":"INFO","msg":"created new stream","id":"g2v16hmx"}
+{"time":"2025-03-15T20:50:42.6153884+05:30","level":"INFO","msg":"stream: started","id":"g2v16hmx"}
+{"time":"2025-03-15T20:50:42.6153884+05:30","level":"INFO","msg":"handler: started","stream_id":"g2v16hmx"}
+{"time":"2025-03-15T20:50:42.6153884+05:30","level":"INFO","msg":"sender: started","stream_id":"g2v16hmx"}
+{"time":"2025-03-15T20:50:42.6153884+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"g2v16hmx"}
+{"time":"2025-03-15T20:50:42.9778905+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T20:51:10.1782403+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T20:51:10.1790943+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T20:51:11.1373531+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T20:51:11.1863101+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 2-5, summary, console lines 2-5","runtime_seconds":0.048957}],"total_operations":1}}
+{"time":"2025-03-15T20:51:11.5264888+05:30","level":"INFO","msg":"stream: closing","id":"g2v16hmx"}
+{"time":"2025-03-15T20:51:11.5264888+05:30","level":"INFO","msg":"handler: closed","stream_id":"g2v16hmx"}
+{"time":"2025-03-15T20:51:11.5264888+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"g2v16hmx"}
+{"time":"2025-03-15T20:51:11.5264888+05:30","level":"INFO","msg":"sender: closed","stream_id":"g2v16hmx"}
+{"time":"2025-03-15T20:51:11.5272699+05:30","level":"INFO","msg":"stream: closed","id":"g2v16hmx"}

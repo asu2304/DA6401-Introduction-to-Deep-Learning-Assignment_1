@@ -1,0 +1,149 @@
+{'Learning_rate': 0.001, 'epochs': 3, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'ReLu', 'initialization': 'xavier'}
+epoch: 0, train_loss:2.5327, val_accuracy: 0.0990
+epoch: 1, train_loss:2.3026, val_accuracy: 0.0990
+epoch: 2, train_loss:2.3026, val_accuracy: 0.0949
+test_accuracy: 0.1000
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.001, 'epochs': 3, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'Linear', 'initialization': 'xavier'}
+epoch: 0, train_loss:nan, val_accuracy: 0.1033
+epoch: 1, train_loss:nan, val_accuracy: 0.1033
+epoch: 2, train_loss:nan, val_accuracy: 0.1033
+test_accuracy: 0.1000
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.001, 'epochs': 3, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'tanh', 'initialization': 'xavier'}
+epoch: 0, train_loss:7.7173, val_accuracy: 0.3474
+epoch: 1, train_loss:5.5075, val_accuracy: 0.2949
+epoch: 2, train_loss:4.2800, val_accuracy: 0.3941
+test_accuracy: 0.3901
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.001, 'epochs': 3, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'Sigmoid', 'initialization': 'xavier'}
+epoch: 0, train_loss:1.9122, val_accuracy: 0.5640
+epoch: 1, train_loss:1.5275, val_accuracy: 0.6080
+epoch: 2, train_loss:1.3284, val_accuracy: 0.6376
+test_accuracy: 0.6251
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.001, 'epochs': 3, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'ReLu', 'initialization': 'xavier'}
+epoch: 0, train_loss:2.5327, val_accuracy: 0.0990
+epoch: 1, train_loss:2.3026, val_accuracy: 0.0990
+epoch: 2, train_loss:2.3026, val_accuracy: 0.0949
+test_accuracy: 0.1000
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.001, 'epochs': 3, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'Nadam', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'ReLu', 'initialization': 'xavier'}
+epoch: 0, train_loss:0.5046, val_accuracy: 0.8518
+epoch: 1, train_loss:0.3688, val_accuracy: 0.8704
+epoch: 2, train_loss:0.3346, val_accuracy: 0.8740
+test_accuracy: 0.8641
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.0003943140319177062, 'epochs': 5, 'batch_size': 64, 'layer_size': [784, 64, 64, 64, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 8.05314244604589e-06, 'activation_function': 'ReLu', 'initialization': 'xavier'}
+C:\Users\Ashutosh Patidar\AppData\Local\Temp\ipykernel_9008\1949943401.py:75: RuntimeWarning: invalid value encountered in subtract
+  exp_x = np.exp(X - np.max(X, axis = 1, keepdims=True))
+C:\Users\Ashutosh Patidar\AppData\Local\Temp\ipykernel_9008\1949943401.py:284: RuntimeWarning: overflow encountered in square
+  l2_norm_weights += np.sum(self.weights[i] ** 2)
+C:\Users\Ashutosh Patidar\AppData\Local\Temp\ipykernel_9008\1949943401.py:286: RuntimeWarning: overflow encountered in square
+  l2_norm_bias += np.sum(self.biases[i] ** 2)
+epoch: 0, train_loss:nan, val_accuracy: 0.1033
+epoch: 1, train_loss:nan, val_accuracy: 0.1033
+epoch: 2, train_loss:nan, val_accuracy: 0.1033
+epoch: 3, train_loss:nan, val_accuracy: 0.1033
+epoch: 4, train_loss:nan, val_accuracy: 0.1033
+test_accuracy: 0.1000
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.001, 'epochs': 5, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'ReLu', 'initialization': 'xavier'}
+epoch: 0, train_loss:0.9183, val_accuracy: 0.7975
+epoch: 1, train_loss:0.5508, val_accuracy: 0.7756
+epoch: 2, train_loss:0.4903, val_accuracy: 0.7312
+epoch: 3, train_loss:0.4595, val_accuracy: 0.5946
+epoch: 4, train_loss:0.4369, val_accuracy: 0.6056
+test_accuracy: 0.5911
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.01, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 128, 64, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'ReLu', 'initialization': 'xavier'}
+epoch: 0, train_loss:0.5867, val_accuracy: 0.5509
+epoch: 1, train_loss:0.4153, val_accuracy: 0.5266
+epoch: 2, train_loss:0.3751, val_accuracy: 0.5625
+epoch: 3, train_loss:0.3499, val_accuracy: 0.4530
+epoch: 4, train_loss:0.3313, val_accuracy: 0.4765
+epoch: 5, train_loss:0.3107, val_accuracy: 0.4816
+epoch: 6, train_loss:0.3019, val_accuracy: 0.4657
+epoch: 7, train_loss:0.2883, val_accuracy: 0.4743
+epoch: 8, train_loss:0.2786, val_accuracy: 0.5019
+epoch: 9, train_loss:0.2693, val_accuracy: 0.4465
+test_accuracy: 0.4371
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.001, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 512, 128, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0.0001, 'activation_function': 'ReLu', 'initialization': 'xavier'}
+epoch: 0, train_loss:0.8680, val_accuracy: 0.8002
+epoch: 1, train_loss:0.5527, val_accuracy: 0.7804
+epoch: 2, train_loss:0.4976, val_accuracy: 0.7471
+epoch: 3, train_loss:0.4684, val_accuracy: 0.7453
+epoch: 4, train_loss:0.4471, val_accuracy: 0.7121
+epoch: 5, train_loss:0.4307, val_accuracy: 0.6918
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.01, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 512, 128, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'ReLu', 'initialization': 'xavier'}
+epoch: 0, train_loss:0.5306, val_accuracy: 0.6785
+epoch: 1, train_loss:0.3873, val_accuracy: 0.6349
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.01, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 512, 128, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'Sigmoid', 'initialization': 'xavier'}
+epoch: 0, train_loss:1.0032, val_accuracy: 0.7755
+epoch: 1, train_loss:0.5640, val_accuracy: 0.8143
+epoch: 2, train_loss:0.4932, val_accuracy: 0.8315
+epoch: 3, train_loss:0.4578, val_accuracy: 0.8358
+epoch: 4, train_loss:0.4360, val_accuracy: 0.8443
+epoch: 5, train_loss:0.4191, val_accuracy: 0.8493
+epoch: 6, train_loss:0.4072, val_accuracy: 0.8503
+epoch: 7, train_loss:0.3960, val_accuracy: 0.8535
+epoch: 8, train_loss:0.3861, val_accuracy: 0.8467
+epoch: 9, train_loss:0.3769, val_accuracy: 0.8537
+test_accuracy: 0.8466
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.01, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 512, 128, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'ReLu', 'initialization': 'xavier'}
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.01, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 512, 128, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'ReLu', 'initialization': 'xavier'}
+epoch: 0, train_loss:0.5306, val_accuracy: 0.6785
+epoch: 1, train_loss:0.3873, val_accuracy: 0.6349
+epoch: 2, train_loss:0.3479, val_accuracy: 0.6343
+epoch: 3, train_loss:0.3243, val_accuracy: 0.6487
+epoch: 4, train_loss:0.3052, val_accuracy: 0.6205
+epoch: 5, train_loss:0.2891, val_accuracy: 0.6129
+epoch: 6, train_loss:0.2774, val_accuracy: 0.6558
+epoch: 7, train_loss:0.2652, val_accuracy: 0.6704
+epoch: 8, train_loss:0.2519, val_accuracy: 0.5999
+epoch: 9, train_loss:0.2439, val_accuracy: 0.6173
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.01, 'epochs': 2, 'batch_size': 32, 'layer_size': [784, 512, 128, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'ReLu', 'initialization': 'xavier'}
+C:\Users\Ashutosh Patidar\AppData\Local\Temp\ipykernel_9008\3500863255.py:284: RuntimeWarning: overflow encountered in square
+  l2_norm_weights += np.sum(self.weights[i] ** 2)
+C:\Users\Ashutosh Patidar\AppData\Local\Temp\ipykernel_9008\3500863255.py:286: RuntimeWarning: overflow encountered in square
+  l2_norm_bias += np.sum(self.biases[i] ** 2)
+C:\Users\Ashutosh Patidar\AppData\Local\Temp\ipykernel_9008\3500863255.py:290: RuntimeWarning: invalid value encountered in scalar multiply
+  loss = -np.mean(np.sum(batch_y * np.log(neuron_outputs[-1] + 1e-10), axis = 1)) +  (weight_decay/2) * l2_norm_params
+epoch: 0, train_loss:nan, val_accuracy: 0.1033
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.01, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 512, 128, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'Sigmoid', 'initialization': 'xavier'}
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.01, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 512, 128, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'Sigmoid', 'initialization': 'xavier'}
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.01, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 512, 128, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'Sigmoid', 'initialization': 'xavier'}
+epoch: 0, train_loss:1.0032, val_accuracy: 0.7755
+epoch: 1, train_loss:0.5640, val_accuracy: 0.8143
+epoch: 2, train_loss:0.4932, val_accuracy: 0.8315
+epoch: 3, train_loss:0.4578, val_accuracy: 0.8358
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.01, 'epochs': 10, 'batch_size': 32, 'layer_size': [784, 512, 128, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'ReLu', 'initialization': 'xavier'}
+epoch: 0, train_loss:0.5306, val_accuracy: 0.6785
+epoch: 1, train_loss:0.3873, val_accuracy: 0.6349
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.01, 'epochs': 1, 'batch_size': 32, 'layer_size': [784, 512, 128, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'ReLu', 'initialization': 'xavier'}
+epoch: 0, train_loss:0.5306, val_accuracy: 0.6785
+test_accuracy: 0.6674
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.01, 'epochs': 1, 'batch_size': 32, 'layer_size': [784, 64, 64, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'ReLu', 'initialization': 'xavier', 'hidden_size': 64, 'hidden_num': 2}
+epoch: 0, train_loss:0.5679, val_accuracy: 0.5625
+test_accuracy: 0.5456
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+{'Learning_rate': 0.01, 'epochs': 2, 'batch_size': 32, 'layer_size': [784, 64, 64, 10], 'optimizer': 'NAG', 'beta_1': 0.9, 'beta_2': 0.999, 'loss_function': 'categorical_cross_entropy', 'weight_decay': 0, 'activation_function': 'ReLu', 'initialization': 'xavier', 'hidden_size': 64, 'hidden_num': 2}
+epoch: 0, train_loss:0.5679, val_accuracy: 0.5625
+epoch: 1, train_loss:0.4104, val_accuracy: 0.5517
+test_accuracy: 0.5360
+Create sweep with ID: 2agtvyqp
+Sweep URL: https://wandb.ai/da24s006-indian-institue-of-technology-madras-/Question_4/sweeps/2agtvyqp
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.

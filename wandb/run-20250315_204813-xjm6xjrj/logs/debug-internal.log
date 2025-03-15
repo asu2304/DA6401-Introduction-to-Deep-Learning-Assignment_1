@@ -1,0 +1,16 @@
+{"time":"2025-03-15T20:48:13.4594761+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_204813-xjm6xjrj\\logs\\debug-core.log"}
+{"time":"2025-03-15T20:48:13.5828419+05:30","level":"INFO","msg":"created new stream","id":"xjm6xjrj"}
+{"time":"2025-03-15T20:48:13.5828419+05:30","level":"INFO","msg":"stream: started","id":"xjm6xjrj"}
+{"time":"2025-03-15T20:48:13.5828419+05:30","level":"INFO","msg":"handler: started","stream_id":"xjm6xjrj"}
+{"time":"2025-03-15T20:48:13.5828419+05:30","level":"INFO","msg":"sender: started","stream_id":"xjm6xjrj"}
+{"time":"2025-03-15T20:48:13.5828419+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"xjm6xjrj"}
+{"time":"2025-03-15T20:48:14.0197156+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T20:50:03.3121507+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T20:50:03.3131249+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T20:50:04.3335828+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.1979067,"progress":"522B/522B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.1979067,"progress":"180B/180B"}],"total_operations":2}}
+{"time":"2025-03-15T20:50:04.8465764+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T20:50:05.1998776+05:30","level":"INFO","msg":"stream: closing","id":"xjm6xjrj"}
+{"time":"2025-03-15T20:50:05.1998776+05:30","level":"INFO","msg":"handler: closed","stream_id":"xjm6xjrj"}
+{"time":"2025-03-15T20:50:05.1998776+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"xjm6xjrj"}
+{"time":"2025-03-15T20:50:05.2004923+05:30","level":"INFO","msg":"sender: closed","stream_id":"xjm6xjrj"}
+{"time":"2025-03-15T20:50:05.2004923+05:30","level":"INFO","msg":"stream: closed","id":"xjm6xjrj"}

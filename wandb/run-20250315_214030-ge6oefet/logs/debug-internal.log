@@ -1,0 +1,16 @@
+{"time":"2025-03-15T21:40:30.697408+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_214030-ge6oefet\\logs\\debug-core.log"}
+{"time":"2025-03-15T21:40:30.8230135+05:30","level":"INFO","msg":"created new stream","id":"ge6oefet"}
+{"time":"2025-03-15T21:40:30.8230135+05:30","level":"INFO","msg":"stream: started","id":"ge6oefet"}
+{"time":"2025-03-15T21:40:30.8230135+05:30","level":"INFO","msg":"handler: started","stream_id":"ge6oefet"}
+{"time":"2025-03-15T21:40:30.8230135+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ge6oefet"}
+{"time":"2025-03-15T21:40:30.8230135+05:30","level":"INFO","msg":"sender: started","stream_id":"ge6oefet"}
+{"time":"2025-03-15T21:40:31.3542403+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T21:40:56.2264689+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T21:40:56.2272866+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T21:40:57.2448156+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-03-15T21:40:57.7003193+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T21:40:58.5263971+05:30","level":"INFO","msg":"stream: closing","id":"ge6oefet"}
+{"time":"2025-03-15T21:40:58.5263971+05:30","level":"INFO","msg":"handler: closed","stream_id":"ge6oefet"}
+{"time":"2025-03-15T21:40:58.5263971+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ge6oefet"}
+{"time":"2025-03-15T21:40:58.5263971+05:30","level":"INFO","msg":"sender: closed","stream_id":"ge6oefet"}
+{"time":"2025-03-15T21:40:58.5271949+05:30","level":"INFO","msg":"stream: closed","id":"ge6oefet"}

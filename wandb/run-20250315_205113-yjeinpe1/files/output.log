@@ -1,0 +1,17 @@
+C:\Users\Ashutosh Patidar\AppData\Local\Temp\ipykernel_2476\1821882276.py:284: RuntimeWarning: overflow encountered in square
+  l2_norm_weights += np.sum(self.weights[i] ** 2)
+C:\Anaconda3\Lib\site-packages\numpy\core\fromnumeric.py:88: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+C:\Users\Ashutosh Patidar\AppData\Local\Temp\ipykernel_2476\1821882276.py:286: RuntimeWarning: overflow encountered in square
+  l2_norm_bias += np.sum(self.biases[i] ** 2)
+epoch: 0, train_loss:nan, val_accuracy: 0.1033
+epoch: 1, train_loss:nan, val_accuracy: 0.1033
+epoch: 2, train_loss:nan, val_accuracy: 0.1033
+epoch: 3, train_loss:nan, val_accuracy: 0.1033
+epoch: 4, train_loss:nan, val_accuracy: 0.1033
+epoch: 5, train_loss:nan, val_accuracy: 0.1033
+epoch: 6, train_loss:nan, val_accuracy: 0.1033
+epoch: 7, train_loss:nan, val_accuracy: 0.1033
+epoch: 8, train_loss:nan, val_accuracy: 0.1033
+epoch: 9, train_loss:nan, val_accuracy: 0.1033
+test_accuracy: 0.1000

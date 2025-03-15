@@ -252,3 +252,27 @@ config: {'Learning_rate': 0.001, 'epochs': 50, 'batch_size': 32, 'layer_size': [
 2025-03-10 14:09:23,490 INFO    MainThread:24296 [wandb_init.py:_resume_backend():569] resuming backend
 2025-03-10 14:09:26,312 INFO    MainThread:24296 [jupyter.py:save_ipynb():386] not saving jupyter notebook
 2025-03-10 14:09:26,317 INFO    MainThread:24296 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-12 08:45:40,056 WARNING MsgRouterThr:24296 [router.py:message_loop():77] message_loop has been closed
+Traceback (most recent call last):
+  File "C:\Users\Ashutosh Patidar\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\sock_client.py", line 258, in _read_packet_bytes
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ashutosh Patidar\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\interface\router_sock.py", line 28, in _read_message
+    except SockClientClosedError as e:
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ashutosh Patidar\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\sock_client.py", line 285, in read_server_response
+  File "C:\Users\Ashutosh Patidar\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\sock_client.py", line 262, in _read_packet_bytes
+wandb.sdk.lib.sock_client.SockClientClosedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ashutosh Patidar\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\interface\router.py", line 70, in message_loop
+    if self._mailbox:
+                  ^^^^
+  File "C:\Users\Ashutosh Patidar\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\interface\router_sock.py", line 30, in _read_message
+wandb.sdk.interface.router.MessageRouterClosedError
+2025-03-12 08:45:40,773 INFO    MsgRouterThr:24296 [mailbox.py:close():115] Closing mailbox, abandoning 1 handles.

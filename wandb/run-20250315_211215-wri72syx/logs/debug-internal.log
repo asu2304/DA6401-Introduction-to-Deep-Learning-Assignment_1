@@ -1,0 +1,16 @@
+{"time":"2025-03-15T21:12:15.259978+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_211215-wri72syx\\logs\\debug-core.log"}
+{"time":"2025-03-15T21:12:15.3848303+05:30","level":"INFO","msg":"created new stream","id":"wri72syx"}
+{"time":"2025-03-15T21:12:15.3848303+05:30","level":"INFO","msg":"stream: started","id":"wri72syx"}
+{"time":"2025-03-15T21:12:15.3848303+05:30","level":"INFO","msg":"handler: started","stream_id":"wri72syx"}
+{"time":"2025-03-15T21:12:15.3848303+05:30","level":"INFO","msg":"sender: started","stream_id":"wri72syx"}
+{"time":"2025-03-15T21:12:15.3848303+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"wri72syx"}
+{"time":"2025-03-15T21:12:15.7872756+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T21:12:45.8181434+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T21:12:45.8192003+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T21:12:46.836222+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6684232,"progress":"522B/522B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.6684232,"progress":"179B/179B"},{"desc":"uploading config.yaml","runtime_seconds":0.3514874,"progress":"973B/973B"},{"desc":"uploading history steps 5-10, summary, console lines 5-10","runtime_seconds":0.2836776}],"total_operations":4}}
+{"time":"2025-03-15T21:12:47.4943829+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T21:12:47.9347112+05:30","level":"INFO","msg":"stream: closing","id":"wri72syx"}
+{"time":"2025-03-15T21:12:47.9347112+05:30","level":"INFO","msg":"handler: closed","stream_id":"wri72syx"}
+{"time":"2025-03-15T21:12:47.9347112+05:30","level":"INFO","msg":"sender: closed","stream_id":"wri72syx"}
+{"time":"2025-03-15T21:12:47.9347112+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"wri72syx"}
+{"time":"2025-03-15T21:12:47.935781+05:30","level":"INFO","msg":"stream: closed","id":"wri72syx"}

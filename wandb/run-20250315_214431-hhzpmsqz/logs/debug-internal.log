@@ -1,0 +1,16 @@
+{"time":"2025-03-15T21:44:31.7352427+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_214431-hhzpmsqz\\logs\\debug-core.log"}
+{"time":"2025-03-15T21:44:31.8583667+05:30","level":"INFO","msg":"created new stream","id":"hhzpmsqz"}
+{"time":"2025-03-15T21:44:31.8583667+05:30","level":"INFO","msg":"stream: started","id":"hhzpmsqz"}
+{"time":"2025-03-15T21:44:31.8583667+05:30","level":"INFO","msg":"handler: started","stream_id":"hhzpmsqz"}
+{"time":"2025-03-15T21:44:31.8583667+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"hhzpmsqz"}
+{"time":"2025-03-15T21:44:31.8583667+05:30","level":"INFO","msg":"sender: started","stream_id":"hhzpmsqz"}
+{"time":"2025-03-15T21:44:32.307349+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T21:45:17.0071368+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T21:45:17.0083522+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T21:45:18.0231368+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.5154301,"progress":"175B/175B"},{"desc":"uploading config.yaml","runtime_seconds":0.2568185,"progress":"957B/957B"}],"total_operations":2}}
+{"time":"2025-03-15T21:45:18.8182767+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T21:45:19.1877303+05:30","level":"INFO","msg":"stream: closing","id":"hhzpmsqz"}
+{"time":"2025-03-15T21:45:19.1882731+05:30","level":"INFO","msg":"handler: closed","stream_id":"hhzpmsqz"}
+{"time":"2025-03-15T21:45:19.1882731+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"hhzpmsqz"}
+{"time":"2025-03-15T21:45:19.1882731+05:30","level":"INFO","msg":"sender: closed","stream_id":"hhzpmsqz"}
+{"time":"2025-03-15T21:45:19.1889357+05:30","level":"INFO","msg":"stream: closed","id":"hhzpmsqz"}

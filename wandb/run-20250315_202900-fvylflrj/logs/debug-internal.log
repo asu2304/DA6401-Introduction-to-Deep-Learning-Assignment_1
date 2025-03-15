@@ -1,0 +1,16 @@
+{"time":"2025-03-15T20:29:00.1997465+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_202900-fvylflrj\\logs\\debug-core.log"}
+{"time":"2025-03-15T20:29:00.3242708+05:30","level":"INFO","msg":"created new stream","id":"fvylflrj"}
+{"time":"2025-03-15T20:29:00.3242708+05:30","level":"INFO","msg":"stream: started","id":"fvylflrj"}
+{"time":"2025-03-15T20:29:00.3242708+05:30","level":"INFO","msg":"sender: started","stream_id":"fvylflrj"}
+{"time":"2025-03-15T20:29:00.3242708+05:30","level":"INFO","msg":"handler: started","stream_id":"fvylflrj"}
+{"time":"2025-03-15T20:29:00.3242708+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fvylflrj"}
+{"time":"2025-03-15T20:29:00.7416154+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T20:30:01.6852288+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T20:30:01.6863152+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T20:30:02.7007861+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.2138764,"progress":"952B/952B"}],"total_operations":1}}
+{"time":"2025-03-15T20:30:02.9359862+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T20:30:03.3777726+05:30","level":"INFO","msg":"stream: closing","id":"fvylflrj"}
+{"time":"2025-03-15T20:30:03.3777726+05:30","level":"INFO","msg":"handler: closed","stream_id":"fvylflrj"}
+{"time":"2025-03-15T20:30:03.3777726+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"fvylflrj"}
+{"time":"2025-03-15T20:30:03.3777726+05:30","level":"INFO","msg":"sender: closed","stream_id":"fvylflrj"}
+{"time":"2025-03-15T20:30:03.3783868+05:30","level":"INFO","msg":"stream: closed","id":"fvylflrj"}

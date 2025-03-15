@@ -1,0 +1,10 @@
+{"time":"2025-03-11T00:49:12.8781307+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250311_004912-k41mac1d\\logs\\debug-core.log"}
+{"time":"2025-03-11T00:49:13.0051005+05:30","level":"INFO","msg":"created new stream","id":"k41mac1d"}
+{"time":"2025-03-11T00:49:13.0051005+05:30","level":"INFO","msg":"stream: started","id":"k41mac1d"}
+{"time":"2025-03-11T00:49:13.0051005+05:30","level":"INFO","msg":"handler: started","stream_id":"k41mac1d"}
+{"time":"2025-03-11T00:49:13.0051005+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"k41mac1d"}
+{"time":"2025-03-11T00:49:13.0051005+05:30","level":"INFO","msg":"sender: started","stream_id":"k41mac1d"}
+{"time":"2025-03-11T00:49:13.3784526+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-11T00:49:14.7259019+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-11T00:49:14.7275456+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-11T00:49:17.3235308+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}

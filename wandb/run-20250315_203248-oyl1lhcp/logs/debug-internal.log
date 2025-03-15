@@ -1,0 +1,16 @@
+{"time":"2025-03-15T20:32:48.2410779+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_203248-oyl1lhcp\\logs\\debug-core.log"}
+{"time":"2025-03-15T20:32:48.3674424+05:30","level":"INFO","msg":"created new stream","id":"oyl1lhcp"}
+{"time":"2025-03-15T20:32:48.3674424+05:30","level":"INFO","msg":"stream: started","id":"oyl1lhcp"}
+{"time":"2025-03-15T20:32:48.3674424+05:30","level":"INFO","msg":"handler: started","stream_id":"oyl1lhcp"}
+{"time":"2025-03-15T20:32:48.3674424+05:30","level":"INFO","msg":"sender: started","stream_id":"oyl1lhcp"}
+{"time":"2025-03-15T20:32:48.3674424+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"oyl1lhcp"}
+{"time":"2025-03-15T20:32:48.8797468+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T20:33:06.0506959+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T20:33:06.0521927+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T20:33:07.0638208+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6958089,"progress":"274B/274B"},{"desc":"uploading config.yaml","runtime_seconds":0.3888077,"progress":"966B/966B"}],"total_operations":2}}
+{"time":"2025-03-15T20:33:07.7081469+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T20:33:08.1897249+05:30","level":"INFO","msg":"stream: closing","id":"oyl1lhcp"}
+{"time":"2025-03-15T20:33:08.1897249+05:30","level":"INFO","msg":"handler: closed","stream_id":"oyl1lhcp"}
+{"time":"2025-03-15T20:33:08.1897249+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"oyl1lhcp"}
+{"time":"2025-03-15T20:33:08.1897249+05:30","level":"INFO","msg":"sender: closed","stream_id":"oyl1lhcp"}
+{"time":"2025-03-15T20:33:08.190244+05:30","level":"INFO","msg":"stream: closed","id":"oyl1lhcp"}

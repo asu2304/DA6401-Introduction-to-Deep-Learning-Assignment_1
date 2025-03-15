@@ -1,0 +1,26 @@
+wandb_version: 1
+
+Learning_rate:
+  value: 0.0001
+activation_function:
+  value: ReLu
+batch_size:
+  value: 64
+beta_1:
+  value: 0.9
+beta_2:
+  value: 0.99
+epochs:
+  value: 10
+hidden_num:
+  value: 5
+hidden_size:
+  value: 128
+initialization:
+  value: xavier
+loss_function:
+  value: mean_squared
+optimizer:
+  value: sgd
+weight_decay:
+  value: 0.0005

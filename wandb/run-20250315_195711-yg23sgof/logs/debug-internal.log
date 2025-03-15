@@ -1,0 +1,16 @@
+{"time":"2025-03-15T19:57:11.0477566+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_195711-yg23sgof\\logs\\debug-core.log"}
+{"time":"2025-03-15T19:57:11.1774256+05:30","level":"INFO","msg":"created new stream","id":"yg23sgof"}
+{"time":"2025-03-15T19:57:11.1774256+05:30","level":"INFO","msg":"handler: started","stream_id":"yg23sgof"}
+{"time":"2025-03-15T19:57:11.1774256+05:30","level":"INFO","msg":"stream: started","id":"yg23sgof"}
+{"time":"2025-03-15T19:57:11.1774256+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"yg23sgof"}
+{"time":"2025-03-15T19:57:11.177994+05:30","level":"INFO","msg":"sender: started","stream_id":"yg23sgof"}
+{"time":"2025-03-15T19:57:11.5504589+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T19:58:54.8538051+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T19:58:54.8550221+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T19:58:55.8664484+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.3846922,"progress":"522B/522B"},{"desc":"uploading config.yaml","runtime_seconds":0.0233189,"progress":"948B/948B"}],"total_operations":2}}
+{"time":"2025-03-15T19:58:56.2372632+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T19:58:56.6710613+05:30","level":"INFO","msg":"stream: closing","id":"yg23sgof"}
+{"time":"2025-03-15T19:58:56.6710613+05:30","level":"INFO","msg":"handler: closed","stream_id":"yg23sgof"}
+{"time":"2025-03-15T19:58:56.6710613+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"yg23sgof"}
+{"time":"2025-03-15T19:58:56.6715842+05:30","level":"INFO","msg":"sender: closed","stream_id":"yg23sgof"}
+{"time":"2025-03-15T19:58:56.6718939+05:30","level":"INFO","msg":"stream: closed","id":"yg23sgof"}

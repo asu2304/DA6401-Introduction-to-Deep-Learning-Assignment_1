@@ -1,0 +1,16 @@
+{"time":"2025-03-15T22:07:12.4958948+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_220712-6tjg0ixr\\logs\\debug-core.log"}
+{"time":"2025-03-15T22:07:12.6256694+05:30","level":"INFO","msg":"created new stream","id":"6tjg0ixr"}
+{"time":"2025-03-15T22:07:12.6266255+05:30","level":"INFO","msg":"stream: started","id":"6tjg0ixr"}
+{"time":"2025-03-15T22:07:12.6272631+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"6tjg0ixr"}
+{"time":"2025-03-15T22:07:12.6272631+05:30","level":"INFO","msg":"sender: started","stream_id":"6tjg0ixr"}
+{"time":"2025-03-15T22:07:12.6272631+05:30","level":"INFO","msg":"handler: started","stream_id":"6tjg0ixr"}
+{"time":"2025-03-15T22:07:13.1021289+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T22:09:16.1736949+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T22:09:16.1853036+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T22:09:17.2267465+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.4704513,"progress":"179B/179B"},{"desc":"uploading config.yaml","runtime_seconds":0.1911849,"progress":"953B/953B"}],"total_operations":2}}
+{"time":"2025-03-15T22:09:17.3786054+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T22:09:17.7334234+05:30","level":"INFO","msg":"stream: closing","id":"6tjg0ixr"}
+{"time":"2025-03-15T22:09:17.7342198+05:30","level":"INFO","msg":"handler: closed","stream_id":"6tjg0ixr"}
+{"time":"2025-03-15T22:09:17.7342198+05:30","level":"INFO","msg":"sender: closed","stream_id":"6tjg0ixr"}
+{"time":"2025-03-15T22:09:17.7342198+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"6tjg0ixr"}
+{"time":"2025-03-15T22:09:17.7349882+05:30","level":"INFO","msg":"stream: closed","id":"6tjg0ixr"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-15T21:52:25.4338867+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_215225-g9osd31r\\logs\\debug-core.log"}
+{"time":"2025-03-15T21:52:25.5606532+05:30","level":"INFO","msg":"created new stream","id":"g9osd31r"}
+{"time":"2025-03-15T21:52:25.5606532+05:30","level":"INFO","msg":"stream: started","id":"g9osd31r"}
+{"time":"2025-03-15T21:52:25.5606532+05:30","level":"INFO","msg":"handler: started","stream_id":"g9osd31r"}
+{"time":"2025-03-15T21:52:25.5606532+05:30","level":"INFO","msg":"sender: started","stream_id":"g9osd31r"}
+{"time":"2025-03-15T21:52:25.5611874+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"g9osd31r"}
+{"time":"2025-03-15T21:52:25.9625863+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T21:53:40.276386+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T21:53:40.2774788+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T21:53:41.2933971+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.4133801,"progress":"177B/177B"},{"desc":"uploading config.yaml","runtime_seconds":0.0836299,"progress":"962B/962B"}],"total_operations":2}}
+{"time":"2025-03-15T21:53:42.4574383+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T21:53:43.2350889+05:30","level":"INFO","msg":"stream: closing","id":"g9osd31r"}
+{"time":"2025-03-15T21:53:43.2350889+05:30","level":"INFO","msg":"handler: closed","stream_id":"g9osd31r"}
+{"time":"2025-03-15T21:53:43.2350889+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"g9osd31r"}
+{"time":"2025-03-15T21:53:43.2357844+05:30","level":"INFO","msg":"sender: closed","stream_id":"g9osd31r"}
+{"time":"2025-03-15T21:53:43.2363024+05:30","level":"INFO","msg":"stream: closed","id":"g9osd31r"}

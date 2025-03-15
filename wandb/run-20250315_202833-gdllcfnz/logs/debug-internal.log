@@ -1,0 +1,16 @@
+{"time":"2025-03-15T20:28:33.3868628+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_202833-gdllcfnz\\logs\\debug-core.log"}
+{"time":"2025-03-15T20:28:33.5125721+05:30","level":"INFO","msg":"created new stream","id":"gdllcfnz"}
+{"time":"2025-03-15T20:28:33.5131404+05:30","level":"INFO","msg":"stream: started","id":"gdllcfnz"}
+{"time":"2025-03-15T20:28:33.5131404+05:30","level":"INFO","msg":"handler: started","stream_id":"gdllcfnz"}
+{"time":"2025-03-15T20:28:33.5131404+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gdllcfnz"}
+{"time":"2025-03-15T20:28:33.5131404+05:30","level":"INFO","msg":"sender: started","stream_id":"gdllcfnz"}
+{"time":"2025-03-15T20:28:34.6570753+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T20:28:51.6057352+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T20:28:51.6069759+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T20:28:52.6247086+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.560297,"progress":"273B/273B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.560297,"progress":"175B/175B"}],"total_operations":2}}
+{"time":"2025-03-15T20:28:53.020413+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T20:28:54.0847997+05:30","level":"INFO","msg":"stream: closing","id":"gdllcfnz"}
+{"time":"2025-03-15T20:28:54.0847997+05:30","level":"INFO","msg":"handler: closed","stream_id":"gdllcfnz"}
+{"time":"2025-03-15T20:28:54.0847997+05:30","level":"INFO","msg":"sender: closed","stream_id":"gdllcfnz"}
+{"time":"2025-03-15T20:28:54.0847997+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"gdllcfnz"}
+{"time":"2025-03-15T20:28:54.0854681+05:30","level":"INFO","msg":"stream: closed","id":"gdllcfnz"}

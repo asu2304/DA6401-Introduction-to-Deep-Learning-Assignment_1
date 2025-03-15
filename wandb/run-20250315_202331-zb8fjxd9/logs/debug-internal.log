@@ -1,0 +1,16 @@
+{"time":"2025-03-15T20:23:31.2798637+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_202331-zb8fjxd9\\logs\\debug-core.log"}
+{"time":"2025-03-15T20:23:31.4055138+05:30","level":"INFO","msg":"created new stream","id":"zb8fjxd9"}
+{"time":"2025-03-15T20:23:31.4055138+05:30","level":"INFO","msg":"stream: started","id":"zb8fjxd9"}
+{"time":"2025-03-15T20:23:31.4055138+05:30","level":"INFO","msg":"handler: started","stream_id":"zb8fjxd9"}
+{"time":"2025-03-15T20:23:31.4055138+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zb8fjxd9"}
+{"time":"2025-03-15T20:23:31.4055138+05:30","level":"INFO","msg":"sender: started","stream_id":"zb8fjxd9"}
+{"time":"2025-03-15T20:23:31.8325269+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T20:24:20.8369943+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T20:24:20.8381103+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T20:24:21.8573827+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.5674018,"progress":"522B/522B"},{"desc":"uploading config.yaml","runtime_seconds":0.2232735,"progress":"948B/948B"}],"total_operations":2}}
+{"time":"2025-03-15T20:24:22.665727+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T20:24:23.1888102+05:30","level":"INFO","msg":"stream: closing","id":"zb8fjxd9"}
+{"time":"2025-03-15T20:24:23.1888102+05:30","level":"INFO","msg":"handler: closed","stream_id":"zb8fjxd9"}
+{"time":"2025-03-15T20:24:23.1888102+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zb8fjxd9"}
+{"time":"2025-03-15T20:24:23.1894268+05:30","level":"INFO","msg":"sender: closed","stream_id":"zb8fjxd9"}
+{"time":"2025-03-15T20:24:23.1901146+05:30","level":"INFO","msg":"stream: closed","id":"zb8fjxd9"}

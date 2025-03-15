@@ -1,0 +1,16 @@
+{"time":"2025-03-15T21:26:52.7445449+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_212652-xeg5pmua\\logs\\debug-core.log"}
+{"time":"2025-03-15T21:26:52.8687494+05:30","level":"INFO","msg":"created new stream","id":"xeg5pmua"}
+{"time":"2025-03-15T21:26:52.8687494+05:30","level":"INFO","msg":"stream: started","id":"xeg5pmua"}
+{"time":"2025-03-15T21:26:52.8687494+05:30","level":"INFO","msg":"handler: started","stream_id":"xeg5pmua"}
+{"time":"2025-03-15T21:26:52.8687494+05:30","level":"INFO","msg":"sender: started","stream_id":"xeg5pmua"}
+{"time":"2025-03-15T21:26:52.8687494+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"xeg5pmua"}
+{"time":"2025-03-15T21:26:53.2800789+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T21:27:36.784618+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T21:27:36.7853205+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T21:27:37.7508512+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T21:27:37.795875+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 3-5, summary, console lines 3-5","runtime_seconds":0.0450238}],"total_operations":1}}
+{"time":"2025-03-15T21:27:38.0861358+05:30","level":"INFO","msg":"stream: closing","id":"xeg5pmua"}
+{"time":"2025-03-15T21:27:38.0861358+05:30","level":"INFO","msg":"handler: closed","stream_id":"xeg5pmua"}
+{"time":"2025-03-15T21:27:38.0861358+05:30","level":"INFO","msg":"sender: closed","stream_id":"xeg5pmua"}
+{"time":"2025-03-15T21:27:38.0861358+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"xeg5pmua"}
+{"time":"2025-03-15T21:27:38.0866499+05:30","level":"INFO","msg":"stream: closed","id":"xeg5pmua"}

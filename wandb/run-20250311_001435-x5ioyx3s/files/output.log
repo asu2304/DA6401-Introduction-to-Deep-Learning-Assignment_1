@@ -1,0 +1,2 @@
+epoch: 0, train_loss: 0.7500, val_accuracy: 0.8569
+test_accuracy: 0.8427

@@ -1,0 +1,16 @@
+{"time":"2025-03-15T21:58:09.7193972+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_215809-xmrwwphn\\logs\\debug-core.log"}
+{"time":"2025-03-15T21:58:09.8478886+05:30","level":"INFO","msg":"created new stream","id":"xmrwwphn"}
+{"time":"2025-03-15T21:58:09.8478886+05:30","level":"INFO","msg":"stream: started","id":"xmrwwphn"}
+{"time":"2025-03-15T21:58:09.8478886+05:30","level":"INFO","msg":"handler: started","stream_id":"xmrwwphn"}
+{"time":"2025-03-15T21:58:09.8478886+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"xmrwwphn"}
+{"time":"2025-03-15T21:58:09.8478886+05:30","level":"INFO","msg":"sender: started","stream_id":"xmrwwphn"}
+{"time":"2025-03-15T21:58:10.2575033+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T21:59:46.3360969+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T21:59:46.3391168+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T21:59:47.3927048+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.4723129,"progress":"177B/177B"},{"desc":"uploading config.yaml","runtime_seconds":0.1703291,"progress":"949B/949B"}],"total_operations":2}}
+{"time":"2025-03-15T21:59:47.7669368+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T21:59:48.1473435+05:30","level":"INFO","msg":"stream: closing","id":"xmrwwphn"}
+{"time":"2025-03-15T21:59:48.1479027+05:30","level":"INFO","msg":"handler: closed","stream_id":"xmrwwphn"}
+{"time":"2025-03-15T21:59:48.1479027+05:30","level":"INFO","msg":"sender: closed","stream_id":"xmrwwphn"}
+{"time":"2025-03-15T21:59:48.1479027+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"xmrwwphn"}
+{"time":"2025-03-15T21:59:48.1479027+05:30","level":"INFO","msg":"stream: closed","id":"xmrwwphn"}

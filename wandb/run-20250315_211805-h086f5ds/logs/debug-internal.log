@@ -1,0 +1,16 @@
+{"time":"2025-03-15T21:18:05.9602648+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_211805-h086f5ds\\logs\\debug-core.log"}
+{"time":"2025-03-15T21:18:06.0861449+05:30","level":"INFO","msg":"created new stream","id":"h086f5ds"}
+{"time":"2025-03-15T21:18:06.0866987+05:30","level":"INFO","msg":"handler: started","stream_id":"h086f5ds"}
+{"time":"2025-03-15T21:18:06.0866987+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"h086f5ds"}
+{"time":"2025-03-15T21:18:06.0866987+05:30","level":"INFO","msg":"stream: started","id":"h086f5ds"}
+{"time":"2025-03-15T21:18:06.0866987+05:30","level":"INFO","msg":"sender: started","stream_id":"h086f5ds"}
+{"time":"2025-03-15T21:18:07.7302211+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T21:20:37.0172546+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T21:20:37.0200017+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T21:20:38.028614+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.2929061,"progress":"522B/522B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.2925726,"progress":"183B/183B"}],"total_operations":2}}
+{"time":"2025-03-15T21:20:38.8470355+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T21:20:39.4823428+05:30","level":"INFO","msg":"stream: closing","id":"h086f5ds"}
+{"time":"2025-03-15T21:20:39.4823428+05:30","level":"INFO","msg":"sender: closed","stream_id":"h086f5ds"}
+{"time":"2025-03-15T21:20:39.4829124+05:30","level":"INFO","msg":"handler: closed","stream_id":"h086f5ds"}
+{"time":"2025-03-15T21:20:39.4829124+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"h086f5ds"}
+{"time":"2025-03-15T21:20:39.4829124+05:30","level":"INFO","msg":"stream: closed","id":"h086f5ds"}

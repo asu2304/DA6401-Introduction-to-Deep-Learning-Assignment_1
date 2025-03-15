@@ -1,0 +1,16 @@
+{"time":"2025-03-15T22:03:57.4699466+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_220357-dc5dmr4r\\logs\\debug-core.log"}
+{"time":"2025-03-15T22:03:57.5958437+05:30","level":"INFO","msg":"created new stream","id":"dc5dmr4r"}
+{"time":"2025-03-15T22:03:57.5958437+05:30","level":"INFO","msg":"stream: started","id":"dc5dmr4r"}
+{"time":"2025-03-15T22:03:57.5958437+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"dc5dmr4r"}
+{"time":"2025-03-15T22:03:57.5958437+05:30","level":"INFO","msg":"handler: started","stream_id":"dc5dmr4r"}
+{"time":"2025-03-15T22:03:57.5958437+05:30","level":"INFO","msg":"sender: started","stream_id":"dc5dmr4r"}
+{"time":"2025-03-15T22:03:58.0054188+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T22:06:58.7784555+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T22:06:58.7876107+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T22:06:59.8467533+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.4523319,"progress":"182B/182B"},{"desc":"uploading config.yaml","runtime_seconds":0.069524,"progress":"953B/953B"}],"total_operations":2}}
+{"time":"2025-03-15T22:07:00.7369645+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T22:07:01.0958031+05:30","level":"INFO","msg":"stream: closing","id":"dc5dmr4r"}
+{"time":"2025-03-15T22:07:01.0958031+05:30","level":"INFO","msg":"handler: closed","stream_id":"dc5dmr4r"}
+{"time":"2025-03-15T22:07:01.0963877+05:30","level":"INFO","msg":"sender: closed","stream_id":"dc5dmr4r"}
+{"time":"2025-03-15T22:07:01.0958031+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"dc5dmr4r"}
+{"time":"2025-03-15T22:07:01.0963877+05:30","level":"INFO","msg":"stream: closed","id":"dc5dmr4r"}

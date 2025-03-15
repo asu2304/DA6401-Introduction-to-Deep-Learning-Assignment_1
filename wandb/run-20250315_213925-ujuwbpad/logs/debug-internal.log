@@ -1,0 +1,16 @@
+{"time":"2025-03-15T21:39:26.0194997+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_213925-ujuwbpad\\logs\\debug-core.log"}
+{"time":"2025-03-15T21:39:26.1425954+05:30","level":"INFO","msg":"created new stream","id":"ujuwbpad"}
+{"time":"2025-03-15T21:39:26.1425954+05:30","level":"INFO","msg":"stream: started","id":"ujuwbpad"}
+{"time":"2025-03-15T21:39:26.1425954+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ujuwbpad"}
+{"time":"2025-03-15T21:39:26.1425954+05:30","level":"INFO","msg":"handler: started","stream_id":"ujuwbpad"}
+{"time":"2025-03-15T21:39:26.1425954+05:30","level":"INFO","msg":"sender: started","stream_id":"ujuwbpad"}
+{"time":"2025-03-15T21:39:26.8070952+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T21:40:22.5191312+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T21:40:22.520191+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T21:40:23.5362361+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4300169,"progress":"523B/523B"},{"desc":"uploading config.yaml","runtime_seconds":0.0627939,"progress":"964B/964B"}],"total_operations":2}}
+{"time":"2025-03-15T21:40:23.8781685+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T21:40:24.4968624+05:30","level":"INFO","msg":"stream: closing","id":"ujuwbpad"}
+{"time":"2025-03-15T21:40:24.4968624+05:30","level":"INFO","msg":"handler: closed","stream_id":"ujuwbpad"}
+{"time":"2025-03-15T21:40:24.4968624+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ujuwbpad"}
+{"time":"2025-03-15T21:40:24.4968624+05:30","level":"INFO","msg":"sender: closed","stream_id":"ujuwbpad"}
+{"time":"2025-03-15T21:40:24.4995648+05:30","level":"INFO","msg":"stream: closed","id":"ujuwbpad"}

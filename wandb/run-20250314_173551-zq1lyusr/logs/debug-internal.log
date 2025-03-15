@@ -1,0 +1,605 @@
+{"time":"2025-03-14T17:35:51.8109039+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250314_173551-zq1lyusr\\logs\\debug-core.log"}
+{"time":"2025-03-14T17:35:52.554725+05:30","level":"INFO","msg":"created new stream","id":"zq1lyusr"}
+{"time":"2025-03-14T17:35:52.5552678+05:30","level":"INFO","msg":"stream: started","id":"zq1lyusr"}
+{"time":"2025-03-14T17:35:52.5552678+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zq1lyusr"}
+{"time":"2025-03-14T17:35:52.5552678+05:30","level":"INFO","msg":"sender: started","stream_id":"zq1lyusr"}
+{"time":"2025-03-14T17:35:52.5552678+05:30","level":"INFO","msg":"handler: started","stream_id":"zq1lyusr"}
+{"time":"2025-03-14T17:35:53.3028556+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-14T17:36:04.4708758+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T17:36:04.5029556+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T17:36:04.5209762+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T17:36:30.3271806+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T17:38:06.2284611+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T17:38:35.8730417+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T17:38:35.9694073+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T17:38:36.0140263+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T17:39:09.3582644+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T17:40:19.4572247+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T17:40:25.4067321+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T17:40:29.9571443+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T17:40:37.9068861+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.42.185.17:58754->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-03-14T17:41:08.6912373+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T17:41:08.8131609+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T17:41:08.8589023+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T17:51:15.109238+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T17:51:17.6266669+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T17:51:17.7075228+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T17:51:17.7264344+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:08:35.0453148+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:09:41.3115418+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:09:41.3892412+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:09:41.4267748+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:09:48.9773305+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:10:49.2936892+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:10:49.3338071+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:10:49.3550881+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:11:09.0866957+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:12:08.6948022+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:12:08.7339511+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:12:08.7638643+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:12:24.220064+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:12:42.2057634+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:12:42.2482749+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:12:42.2706006+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:12:49.7099271+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:13:08.6550123+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:13:08.7002695+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:13:08.722577+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:13:19.227196+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:14:22.7893433+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:14:22.8250173+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:14:22.8515488+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:14:24.212408+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:14:44.3281764+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:14:44.3717261+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:14:44.3980923+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:14:45.9633356+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:15:07.1961727+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:15:07.3081805+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:15:07.3436073+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:17:06.5521007+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:17:25.2212367+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:17:25.3228169+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:17:25.3572434+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:17:40.02494+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:18:01.3587052+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:18:01.3975507+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:18:01.4221715+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:18:25.7838866+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:18:46.6872541+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:18:46.7244265+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:18:46.749166+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:21:57.4742405+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:22:12.8078225+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:22:12.8703949+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:22:12.9039594+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:22:14.8442427+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:22:29.5741851+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:22:29.6352029+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:22:29.6607085+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:22:47.2985257+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:22:59.6157467+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:22:59.6657821+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:22:59.688973+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:23:14.5398796+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:23:27.7791981+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:23:27.8319167+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:23:27.8547232+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:24:05.6260093+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:24:23.499435+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:24:23.551231+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:24:23.574548+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:24:44.6411607+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:25:02.2454183+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:25:02.2977969+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:25:02.3198558+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:30:44.1895135+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:31:04.1170787+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:31:04.1693497+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:31:04.1930018+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:31:23.973986+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:31:38.660978+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:31:38.7015808+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:31:38.7232648+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:32:00.1709916+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:32:15.4412986+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:32:15.4925976+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:32:15.5122141+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:32:19.4282473+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:32:34.7518004+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:32:34.7801135+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:32:34.8101244+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:33:55.2335723+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:33:57.1185838+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": unexpected EOF"}
+{"time":"2025-03-14T18:34:16.3313957+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:34:16.389632+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:34:16.4138123+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:52:41.8366312+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:53:03.2787108+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:53:03.3416045+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:53:03.3746691+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:53:09.9480372+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:53:25.2024105+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:53:25.2503+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:53:25.2723804+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:54:48.8260376+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:55:01.7767668+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:55:01.8191621+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:55:01.8417062+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:55:04.5078044+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:55:24.029458+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T18:55:24.0672986+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T18:55:24.0916285+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T19:27:28.7844737+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T19:28:27.1185784+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T19:28:27.1826256+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T19:28:27.2201176+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T19:44:01.060905+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T19:44:18.2427668+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T19:44:18.3234665+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T19:44:18.3589516+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T19:44:31.2802725+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T19:44:48.1820025+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T19:44:48.244102+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T19:45:05.2811711+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T19:45:05.3364969+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T19:45:05.3650889+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T19:45:06.3897611+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T19:45:23.4550367+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T19:45:23.5110222+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T19:45:23.5446245+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T19:46:35.0177791+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T19:46:52.7662305+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T19:46:52.8665656+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T19:47:08.7821426+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T19:47:08.8483711+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T19:47:08.8767091+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T19:54:08.5395076+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T19:54:27.7966891+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T19:54:27.8656024+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T19:54:27.8996558+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T19:55:00.3707051+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T19:55:16.9802346+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T19:55:17.0481362+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T19:55:17.0777468+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T19:55:17.9741357+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T19:55:34.6668598+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T19:55:34.8646491+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T19:55:34.9030648+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T20:00:11.1634986+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T20:00:34.2540854+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T20:00:34.332619+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T20:00:34.3590003+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T20:00:38.8809844+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T20:01:02.7050285+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T20:01:02.7617803+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T20:01:02.792954+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T20:50:43.9499086+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T20:50:46.0153262+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T20:50:49.018562+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.42.185.17:64608->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-03-14T20:53:56.4613377+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T20:54:15.351252+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T20:54:15.3934302+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T20:54:15.426912+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T20:55:31.4451508+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T20:55:47.2798822+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T20:55:47.3416266+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T20:55:47.3798311+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T20:57:05.8370305+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T20:58:02.246269+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T20:58:02.2769842+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T20:58:02.3012613+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:02:41.4592248+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:02:58.9793724+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:02:59.1010909+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:02:59.1405463+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:04:12.6432312+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:04:28.8761586+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:04:28.9126044+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:04:28.9446761+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:04:32.0979059+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:04:49.7212629+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:04:49.7523248+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:04:49.7780207+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:13:00.6931447+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:13:20.2223728+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:13:20.2694146+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:13:20.3023755+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:13:45.205519+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:14:03.0114322+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:14:03.0578633+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:14:03.0820919+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:39:54.3293677+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:39:59.231623+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:39:59.3760389+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:39:59.3975719+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:47:16.9281817+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:47:17.860175+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:47:17.9497764+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:47:17.9773124+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:47:19.6860178+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:47:20.323291+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:47:20.3619036+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:47:20.3900264+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:48:11.6350607+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:48:12.9376361+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:48:13.0154307+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:48:13.044113+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:48:22.8695664+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:48:24.0333606+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:48:24.068393+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:48:24.0894419+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:49:25.0500072+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:49:45.9458551+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:49:46.010674+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:50:04.688575+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:50:04.7407206+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:50:25.4993196+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:50:25.5309448+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:50:25.5578497+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T21:50:25.5884797+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T21:50:25.6153972+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:05:59.8417972+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:07:50.9226451+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:07:51.0417629+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:09:39.4488744+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:11:51.4284688+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:13:45.4021338+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:24:50.8871353+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": unexpected EOF"}
+{"time":"2025-03-14T22:25:51.8875366+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-14T22:27:53.0234258+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-14T22:33:33.1228843+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:35:06.1386256+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:35:06.2340766+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:35:26.3897354+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:37:44.7303073+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:38:03.9666089+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:38:04.0487997+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:38:04.1117483+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:38:21.609672+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:38:40.165201+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:38:40.2268713+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:38:40.2615223+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:40:27.4613655+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:41:12.1898643+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:46:10.4166559+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:46:28.191086+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:46:28.25318+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:46:28.2916424+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:50:24.3903638+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:50:43.7143551+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:50:43.7874331+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:50:45.4964045+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:50:48.2891319+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:51:09.1664602+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:51:09.2396929+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:51:09.2749092+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:51:57.7797599+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:53:02.4771639+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:56:16.9622793+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:56:36.2472353+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:56:36.3300126+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:56:36.4100141+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:56:48.3054523+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:57:05.8011569+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:57:05.8849803+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:57:25.0057046+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:57:25.061033+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:57:25.0948261+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:57:55.6389644+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:58:53.3906618+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:58:53.4340753+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:58:53.6761956+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:59:00.3291702+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T22:59:55.0645314+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T22:59:55.156662+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T23:01:19.4322485+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T23:01:19.5124649+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T23:01:19.5604019+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T23:07:38.0033549+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T23:07:46.4590091+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T23:07:46.5056285+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T23:07:46.5370256+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T23:09:58.5998252+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T23:10:03.9326349+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T23:10:03.9900778+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T23:10:04.038315+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T23:10:11.0082196+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T23:10:30.3023079+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T23:10:30.3538252+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T23:10:30.3872127+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T23:11:03.4042207+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T23:11:19.2189779+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T23:11:19.2611479+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T23:11:19.2926065+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T23:21:15.8221622+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T23:21:35.7462059+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T23:21:35.7949413+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T23:21:35.8304623+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T23:21:40.8702243+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T23:22:03.5114529+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T23:22:03.5468032+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T23:22:03.5716578+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T23:27:28.8593272+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T23:27:36.7464571+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T23:27:36.8215844+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T23:27:36.84687+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T23:28:43.6182579+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T23:29:04.2707725+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T23:29:04.3500296+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T23:29:04.3849119+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T23:30:51.6246508+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T23:31:10.7229404+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T23:31:10.7849315+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T23:31:10.824885+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T23:31:50.760775+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T23:32:07.6132645+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T23:32:07.6617363+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-14T23:32:07.6900015+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-14T23:34:02.2235812+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:34:04.2850599+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:34:10.9607775+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-14T23:36:34.4441219+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.42.185.17:53438->35.186.228.49:443: wsarecv: An established connection was aborted by the software in your host machine."}
+{"time":"2025-03-14T23:36:34.721097+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:37:42.7145353+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:38:18.7517336+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.42.19.150:55436->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-03-14T23:38:21.7537002+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp 35.186.228.49:443: connectex: An established connection was aborted by the software in your host machine."}
+{"time":"2025-03-14T23:38:21.8954222+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:39:27.8753492+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.42.105.113:55534->35.186.228.49:443: wsarecv: An established connection was aborted by the software in your host machine."}
+{"time":"2025-03-14T23:39:27.8753492+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": read tcp 10.42.105.113:55575->35.186.228.49:443: wsarecv: An established connection was aborted by the software in your host machine."}
+{"time":"2025-03-14T23:39:29.9662926+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:39:30.2771329+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:39:34.7327195+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:39:34.7472905+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:39:43.6394917+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:39:44.4124726+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:40:01.4076382+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:40:03.262239+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:40:38.1559272+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:40:40.4881041+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:41:38.1652534+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:41:40.4925992+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:42:38.1746843+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:42:40.4946516+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:43:38.1833004+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:43:40.4963669+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:44:38.1919445+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:44:40.4984709+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:45:38.1996676+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:45:40.500828+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:46:38.2080213+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:46:40.5028758+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:47:38.2166906+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:47:40.5048094+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:48:38.2271522+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:48:40.5109866+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:49:14.6228558+05:30","level":"WARN","msg":"sender: taking a long time","seconds":600.0012395,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true  mailbox_slot:\"58wu6unc598e\"  connection_id:\"127.0.0.1:58746\")"}
+{"time":"2025-03-14T23:49:38.2383666+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:49:40.5135348+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:50:38.2465077+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:50:40.5153653+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:51:38.2537181+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:51:40.5195853+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:52:38.2612783+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:52:40.5238485+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:53:38.2725621+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:53:40.5258763+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:54:38.2808485+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:54:40.5279388+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:55:38.2921029+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:55:38.2944722+05:30","level":"ERROR","msg":"sender: sendStopStatus: failed to get run stopped status: api: failed sending: POST https://api.wandb.ai/graphql giving up after 21 attempt(s): Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:55:38.3045976+05:30","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":983.6853251,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true  mailbox_slot:\"58wu6unc598e\"  connection_id:\"127.0.0.1:58746\")"}
+{"time":"2025-03-14T23:55:40.530444+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:55:45.1919327+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:55:47.1973562+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:55:51.5783231+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:55:59.9650567+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:56:17.0531853+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:56:40.5376793+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:56:52.5264736+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:57:40.5463577+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:57:52.5344685+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:58:40.5544426+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:58:52.5465313+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:59:40.5608942+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-14T23:59:52.5538808+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:00:40.5680079+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:00:52.5616797+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:01:40.5757661+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:01:52.5689815+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:02:40.5837052+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:02:52.5745498+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:03:40.5892992+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:03:52.5813723+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:04:40.5961102+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:04:52.5877171+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:05:40.6045315+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:05:45.1877092+05:30","level":"WARN","msg":"sender: taking a long time","seconds":600.0012813,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true  mailbox_slot:\"z7g76r8vtje3\"  connection_id:\"127.0.0.1:58746\")"}
+{"time":"2025-03-15T00:05:52.596262+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:06:40.6128477+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:06:52.6145669+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:07:40.621848+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:07:52.6216498+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:08:40.6294385+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:08:52.6282674+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:09:40.636979+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:09:52.6353852+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:10:40.6479423+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:10:52.6409086+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:11:40.6553008+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:11:52.6510654+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:11:52.6510654+05:30","level":"ERROR","msg":"sender: sendStopStatus: failed to get run stopped status: api: failed sending: POST https://api.wandb.ai/graphql giving up after 21 attempt(s): Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:11:52.6521972+05:30","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":967.4657693,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true  mailbox_slot:\"z7g76r8vtje3\"  connection_id:\"127.0.0.1:58746\")"}
+{"time":"2025-03-15T00:12:00.7870992+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:12:03.0991596+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:12:07.3627929+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:12:16.4076109+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:12:34.0099999+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:12:40.66853+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:13:13.2761087+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:13:40.6875188+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:14:13.2824635+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:14:40.6964352+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:15:13.2921124+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:15:40.7035861+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:16:13.2997651+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:16:40.7102919+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:17:13.3072294+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:17:40.7205603+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:18:13.3168956+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:18:40.7292495+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:19:13.3263486+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:19:40.7376977+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:20:13.3370989+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:20:40.7452461+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:21:13.345446+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:21:40.7525214+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:22:00.7818253+05:30","level":"WARN","msg":"sender: taking a long time","seconds":600.0003232,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true  mailbox_slot:\"7hrh8ob0smvp\"  connection_id:\"127.0.0.1:58746\")"}
+{"time":"2025-03-15T00:22:13.3515494+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:22:40.761699+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:23:13.3631837+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:23:40.7685629+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:24:13.3708432+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:24:40.7762452+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:25:13.3784199+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:25:40.7846216+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:26:13.3881167+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:26:40.7919073+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:27:13.3964981+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:27:40.8008786+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:28:13.4037501+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:28:13.4037501+05:30","level":"ERROR","msg":"sender: sendStopStatus: failed to get run stopped status: api: failed sending: POST https://api.wandb.ai/graphql giving up after 21 attempt(s): Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:28:13.4050719+05:30","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":972.6235698,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true  mailbox_slot:\"7hrh8ob0smvp\"  connection_id:\"127.0.0.1:58746\")"}
+{"time":"2025-03-15T00:28:16.3888839+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:28:18.6042469+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:28:23.2141369+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:28:33.001837+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:28:40.8092332+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:28:52.2805378+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:29:29.8364361+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:29:40.8196089+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:30:29.8428935+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:30:40.8289945+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:31:29.8506003+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:31:40.8361034+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:32:29.8606346+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:32:40.844287+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:33:29.8685393+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:33:40.8507679+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:34:29.8759145+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:34:40.8584449+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:35:29.8870391+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:35:40.8673988+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:36:29.8942359+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:36:40.8721414+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:37:29.8982032+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:37:40.8799192+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:38:16.3893094+05:30","level":"WARN","msg":"sender: taking a long time","seconds":600.0009878,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true  mailbox_slot:\"d1384npehiwp\"  connection_id:\"127.0.0.1:58746\")"}
+{"time":"2025-03-15T00:38:29.9059575+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:38:40.8854826+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:39:29.917494+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:39:40.8939084+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:40:29.9253663+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:40:40.9032674+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:41:29.9332403+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:41:40.9123127+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:42:29.9415025+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:42:40.9222415+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:43:29.9494092+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:43:40.9311949+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:44:29.9576134+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:44:29.9576134+05:30","level":"ERROR","msg":"sender: sendStopStatus: failed to get run stopped status: api: failed sending: POST https://api.wandb.ai/graphql giving up after 21 attempt(s): Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:44:29.95888+05:30","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":973.5699348,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true  mailbox_slot:\"d1384npehiwp\"  connection_id:\"127.0.0.1:58746\")"}
+{"time":"2025-03-15T00:44:31.9370386+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:44:34.239843+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:44:39.0269822+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:44:40.9333233+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:44:48.0656459+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:45:06.7174142+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:45:40.9412126+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:45:46.1090409+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:46:40.948576+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:46:46.1160415+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:47:40.9554605+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:47:46.1258296+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:48:40.9631172+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:48:46.1337824+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:49:40.970048+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:49:46.1407102+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:50:40.9786609+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:50:46.1523641+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:51:40.9865436+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:51:46.1582613+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:52:40.993548+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:52:46.1659888+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:53:41.0006058+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:53:46.1729167+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:54:31.9381386+05:30","level":"WARN","msg":"sender: taking a long time","seconds":600.0016187,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true  mailbox_slot:\"a3bly1vkolgw\"  connection_id:\"127.0.0.1:58746\")"}
+{"time":"2025-03-15T00:54:41.0095957+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:54:46.1819123+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:55:41.0197756+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:55:46.1897612+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:56:41.0309897+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:56:46.1978111+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:57:41.0380682+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:57:46.2047022+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:58:41.0454986+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:58:46.2132519+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:59:41.0531179+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T00:59:46.22342+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:00:41.0599495+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:00:46.2327389+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:00:46.2327389+05:30","level":"ERROR","msg":"sender: sendStopStatus: failed to get run stopped status: api: failed sending: POST https://api.wandb.ai/graphql giving up after 21 attempt(s): Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:00:46.2327389+05:30","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":974.296219,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true  mailbox_slot:\"a3bly1vkolgw\"  connection_id:\"127.0.0.1:58746\")"}
+{"time":"2025-03-15T01:00:47.4410462+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:00:49.6120385+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:00:54.4894209+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:01:03.6929631+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:01:19.9500902+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:01:41.0677078+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:01:59.8818053+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:02:41.0742083+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:02:59.8878718+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:03:41.082034+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:03:59.8960671+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:04:41.0938597+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:04:59.9055507+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:05:41.1013752+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:05:59.9132316+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:06:41.1103873+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:06:59.9207627+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:07:41.118943+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:07:59.9284974+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:08:41.1243514+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:08:59.9344499+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:09:41.1332377+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:09:59.9391947+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:10:41.142301+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:10:47.4407464+05:30","level":"WARN","msg":"sender: taking a long time","seconds":600.0009634,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true  mailbox_slot:\"25eenl2wn17t\"  connection_id:\"127.0.0.1:58746\")"}
+{"time":"2025-03-15T01:10:59.9469407+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:11:41.1536433+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:11:59.9524981+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:12:41.1599399+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:12:59.9599852+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:13:41.1682513+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:13:59.9663152+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:14:41.1731889+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:14:59.9757865+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:15:41.1816184+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:15:59.9833067+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:16:41.1898224+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:16:59.9908125+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:16:59.9908125+05:30","level":"ERROR","msg":"sender: sendStopStatus: failed to get run stopped status: api: failed sending: POST https://api.wandb.ai/graphql giving up after 21 attempt(s): Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:16:59.9920395+05:30","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":972.5522565,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true  mailbox_slot:\"25eenl2wn17t\"  connection_id:\"127.0.0.1:58746\")"}
+{"time":"2025-03-15T01:17:03.0115621+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:17:05.3809449+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:17:09.7732769+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:17:19.1104202+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:17:39.0042845+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:17:41.1925075+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:18:16.4822117+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:18:41.2003151+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:19:16.4900841+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:19:41.2074029+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:20:16.4961866+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-15T01:20:41.2157161+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/da24s006-indian-institue-of-technology-madras-/backprop_scratch/zq1lyusr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}

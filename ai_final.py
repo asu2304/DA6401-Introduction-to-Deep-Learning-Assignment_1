@@ -393,7 +393,6 @@ if __name__ == "__main__":
                         choices=['sigmoid', 'relu', 'tanh', 'linear'],
                         help='Activation function for hidden layers')
 
-
     
     # Beta1 for optimizers
     parser.add_argument('--beta_1', type=float, default=0.900,
@@ -456,7 +455,7 @@ if __name__ == "__main__":
         model = backprop_from_scratch(layer_size, config.activation_function, config.epsilon)
         
         config.beta_1 = config.momentum # setting config.beta_1 as same as that of momentum because in our implementation we have implemented momentum and nestrov with beta_1 only
-        config.beta_1 = config.
+        config.beta_1 = config.beta
         # Train the model with all hyperparameters from config
         model.train(train_x, train_y, val_x, val_y, config.epochs, config.learning_rate, config.batch_size,
                     config.optimizer, config.beta_1, config.beta_2, config.loss_function, config.weight_decay)

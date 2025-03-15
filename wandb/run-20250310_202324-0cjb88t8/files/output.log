@@ -2,3 +2,10 @@ epoch: 0, train_loss: 0.8491, val_accuracy: 0.8364
 epoch: 1, train_loss: 0.5724, val_accuracy: 0.8483
 epoch: 2, train_loss: 0.5005, val_accuracy: 0.8497
 epoch: 3, train_loss: 0.4690, val_accuracy: 0.8592
+epoch: 4, train_loss: 0.4459, val_accuracy: 0.8684
+epoch: 5, train_loss: 0.4328, val_accuracy: 0.8670
+epoch: 6, train_loss: 0.4239, val_accuracy: 0.8648
+epoch: 7, train_loss: 0.4148, val_accuracy: 0.8740
+epoch: 8, train_loss: 0.4080, val_accuracy: 0.8743
+epoch: 9, train_loss: 0.4030, val_accuracy: 0.8675
+test_accuracy: 0.8619
