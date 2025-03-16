@@ -1,0 +1,16 @@
+{"time":"2025-03-15T23:21:39.0748289+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_232139-rlwk8m3y\\logs\\debug-core.log"}
+{"time":"2025-03-15T23:21:39.200573+05:30","level":"INFO","msg":"created new stream","id":"rlwk8m3y"}
+{"time":"2025-03-15T23:21:39.2011147+05:30","level":"INFO","msg":"handler: started","stream_id":"rlwk8m3y"}
+{"time":"2025-03-15T23:21:39.2011147+05:30","level":"INFO","msg":"stream: started","id":"rlwk8m3y"}
+{"time":"2025-03-15T23:21:39.2011147+05:30","level":"INFO","msg":"sender: started","stream_id":"rlwk8m3y"}
+{"time":"2025-03-15T23:21:39.2011147+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rlwk8m3y"}
+{"time":"2025-03-15T23:21:39.5886262+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T23:22:11.0762618+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T23:22:11.0773394+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T23:22:12.0832584+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4254599,"progress":"523B/523B"},{"desc":"uploading config.yaml","runtime_seconds":0.1533146,"progress":"971B/971B"}],"total_operations":2}}
+{"time":"2025-03-15T23:22:12.2814354+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T23:22:12.6713984+05:30","level":"INFO","msg":"stream: closing","id":"rlwk8m3y"}
+{"time":"2025-03-15T23:22:12.6713984+05:30","level":"INFO","msg":"handler: closed","stream_id":"rlwk8m3y"}
+{"time":"2025-03-15T23:22:12.6713984+05:30","level":"INFO","msg":"sender: closed","stream_id":"rlwk8m3y"}
+{"time":"2025-03-15T23:22:12.6713984+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"rlwk8m3y"}
+{"time":"2025-03-15T23:22:12.6719095+05:30","level":"INFO","msg":"stream: closed","id":"rlwk8m3y"}

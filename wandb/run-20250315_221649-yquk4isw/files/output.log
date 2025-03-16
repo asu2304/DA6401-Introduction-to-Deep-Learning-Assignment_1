@@ -1,0 +1,6 @@
+epoch: 0, train_loss:1.7915, val_accuracy: 0.0983
+epoch: 1, train_loss:1.7988, val_accuracy: 0.0981
+epoch: 2, train_loss:1.7993, val_accuracy: 0.0980
+epoch: 3, train_loss:1.7993, val_accuracy: 0.0980
+epoch: 4, train_loss:1.7992, val_accuracy: 0.0980
+test_accuracy: 0.1001

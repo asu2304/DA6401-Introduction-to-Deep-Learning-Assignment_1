@@ -1,0 +1,11 @@
+epoch: 0, train_loss:0.4749, val_accuracy: 0.8480
+epoch: 1, train_loss:0.3765, val_accuracy: 0.8674
+epoch: 2, train_loss:0.3443, val_accuracy: 0.8664
+epoch: 3, train_loss:0.3197, val_accuracy: 0.8665
+epoch: 4, train_loss:0.3035, val_accuracy: 0.8723
+epoch: 5, train_loss:0.2865, val_accuracy: 0.8804
+epoch: 6, train_loss:0.2757, val_accuracy: 0.8738
+epoch: 7, train_loss:0.2660, val_accuracy: 0.8829
+epoch: 8, train_loss:0.2552, val_accuracy: 0.8815
+epoch: 9, train_loss:0.2462, val_accuracy: 0.8816
+test_accuracy: 0.8776

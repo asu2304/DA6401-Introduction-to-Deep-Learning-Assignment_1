@@ -1,0 +1,16 @@
+{"time":"2025-03-15T23:09:47.6443219+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_230947-6wxda1j1\\logs\\debug-core.log"}
+{"time":"2025-03-15T23:09:47.7692521+05:30","level":"INFO","msg":"created new stream","id":"6wxda1j1"}
+{"time":"2025-03-15T23:09:47.7692521+05:30","level":"INFO","msg":"stream: started","id":"6wxda1j1"}
+{"time":"2025-03-15T23:09:47.7692521+05:30","level":"INFO","msg":"sender: started","stream_id":"6wxda1j1"}
+{"time":"2025-03-15T23:09:47.7692521+05:30","level":"INFO","msg":"handler: started","stream_id":"6wxda1j1"}
+{"time":"2025-03-15T23:09:47.7692521+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"6wxda1j1"}
+{"time":"2025-03-15T23:09:48.4093979+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T23:10:56.705019+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T23:10:56.7062354+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T23:10:57.7184535+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.20647,"progress":"532B/532B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.20647,"progress":"178B/178B"}],"total_operations":2}}
+{"time":"2025-03-15T23:10:58.6610282+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T23:11:00.0683957+05:30","level":"INFO","msg":"stream: closing","id":"6wxda1j1"}
+{"time":"2025-03-15T23:11:00.0683957+05:30","level":"INFO","msg":"handler: closed","stream_id":"6wxda1j1"}
+{"time":"2025-03-15T23:11:00.0683957+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"6wxda1j1"}
+{"time":"2025-03-15T23:11:00.0683957+05:30","level":"INFO","msg":"sender: closed","stream_id":"6wxda1j1"}
+{"time":"2025-03-15T23:11:00.0689176+05:30","level":"INFO","msg":"stream: closed","id":"6wxda1j1"}

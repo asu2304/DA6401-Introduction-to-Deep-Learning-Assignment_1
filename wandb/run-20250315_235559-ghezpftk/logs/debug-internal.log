@@ -1,0 +1,16 @@
+{"time":"2025-03-15T23:55:59.8596636+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_235559-ghezpftk\\logs\\debug-core.log"}
+{"time":"2025-03-15T23:55:59.9878548+05:30","level":"INFO","msg":"created new stream","id":"ghezpftk"}
+{"time":"2025-03-15T23:55:59.9878548+05:30","level":"INFO","msg":"stream: started","id":"ghezpftk"}
+{"time":"2025-03-15T23:55:59.9878548+05:30","level":"INFO","msg":"handler: started","stream_id":"ghezpftk"}
+{"time":"2025-03-15T23:55:59.9883907+05:30","level":"INFO","msg":"sender: started","stream_id":"ghezpftk"}
+{"time":"2025-03-15T23:55:59.9883907+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ghezpftk"}
+{"time":"2025-03-15T23:56:00.4058475+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T23:57:05.4434428+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T23:57:05.4444213+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T23:57:06.4633977+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":0.4281193},{"desc":"uploading output.log","runtime_seconds":0.1248372,"progress":"277B/277B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.1248372,"progress":"179B/179B"}],"total_operations":3}}
+{"time":"2025-03-15T23:57:07.1863659+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T23:57:07.5645651+05:30","level":"INFO","msg":"stream: closing","id":"ghezpftk"}
+{"time":"2025-03-15T23:57:07.5645651+05:30","level":"INFO","msg":"handler: closed","stream_id":"ghezpftk"}
+{"time":"2025-03-15T23:57:07.5645651+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ghezpftk"}
+{"time":"2025-03-15T23:57:07.5645651+05:30","level":"INFO","msg":"sender: closed","stream_id":"ghezpftk"}
+{"time":"2025-03-15T23:57:07.5652036+05:30","level":"INFO","msg":"stream: closed","id":"ghezpftk"}

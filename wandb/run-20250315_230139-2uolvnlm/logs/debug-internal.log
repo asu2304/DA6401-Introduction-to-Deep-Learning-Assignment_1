@@ -1,0 +1,16 @@
+{"time":"2025-03-15T23:01:39.6727053+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_230139-2uolvnlm\\logs\\debug-core.log"}
+{"time":"2025-03-15T23:01:39.7957901+05:30","level":"INFO","msg":"created new stream","id":"2uolvnlm"}
+{"time":"2025-03-15T23:01:39.7963246+05:30","level":"INFO","msg":"stream: started","id":"2uolvnlm"}
+{"time":"2025-03-15T23:01:39.7963246+05:30","level":"INFO","msg":"handler: started","stream_id":"2uolvnlm"}
+{"time":"2025-03-15T23:01:39.7963246+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"2uolvnlm"}
+{"time":"2025-03-15T23:01:39.7963246+05:30","level":"INFO","msg":"sender: started","stream_id":"2uolvnlm"}
+{"time":"2025-03-15T23:01:40.4932573+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T23:02:09.588032+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T23:02:09.5891514+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T23:02:10.6108013+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.3520327,"progress":"522B/522B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.3520327,"progress":"179B/179B"},{"desc":"uploading config.yaml","runtime_seconds":0.2738626,"progress":"964B/964B"}],"total_operations":3}}
+{"time":"2025-03-15T23:02:10.9504572+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T23:02:11.6880544+05:30","level":"INFO","msg":"stream: closing","id":"2uolvnlm"}
+{"time":"2025-03-15T23:02:11.6880544+05:30","level":"INFO","msg":"handler: closed","stream_id":"2uolvnlm"}
+{"time":"2025-03-15T23:02:11.6880544+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"2uolvnlm"}
+{"time":"2025-03-15T23:02:11.6880544+05:30","level":"INFO","msg":"sender: closed","stream_id":"2uolvnlm"}
+{"time":"2025-03-15T23:02:11.6885664+05:30","level":"INFO","msg":"stream: closed","id":"2uolvnlm"}

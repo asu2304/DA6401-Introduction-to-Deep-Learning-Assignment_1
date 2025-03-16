@@ -1,0 +1,16 @@
+{"time":"2025-03-15T23:55:01.3955296+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_235501-orfr15sm\\logs\\debug-core.log"}
+{"time":"2025-03-15T23:55:01.5238002+05:30","level":"INFO","msg":"created new stream","id":"orfr15sm"}
+{"time":"2025-03-15T23:55:01.5238002+05:30","level":"INFO","msg":"stream: started","id":"orfr15sm"}
+{"time":"2025-03-15T23:55:01.5238002+05:30","level":"INFO","msg":"handler: started","stream_id":"orfr15sm"}
+{"time":"2025-03-15T23:55:01.5238002+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"orfr15sm"}
+{"time":"2025-03-15T23:55:01.5238002+05:30","level":"INFO","msg":"sender: started","stream_id":"orfr15sm"}
+{"time":"2025-03-15T23:55:01.9162251+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T23:55:51.7195463+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T23:55:51.7200566+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T23:55:52.7409424+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6792119,"progress":"272B/272B"},{"desc":"uploading config.yaml","runtime_seconds":0.419179,"progress":"966B/966B"}],"total_operations":2}}
+{"time":"2025-03-15T23:55:53.3782262+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T23:55:53.8143806+05:30","level":"INFO","msg":"stream: closing","id":"orfr15sm"}
+{"time":"2025-03-15T23:55:53.8143806+05:30","level":"INFO","msg":"handler: closed","stream_id":"orfr15sm"}
+{"time":"2025-03-15T23:55:53.8143806+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"orfr15sm"}
+{"time":"2025-03-15T23:55:53.8143806+05:30","level":"INFO","msg":"sender: closed","stream_id":"orfr15sm"}
+{"time":"2025-03-15T23:55:53.8148973+05:30","level":"INFO","msg":"stream: closed","id":"orfr15sm"}

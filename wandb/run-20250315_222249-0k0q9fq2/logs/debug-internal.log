@@ -1,0 +1,16 @@
+{"time":"2025-03-15T22:22:49.6311256+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_222249-0k0q9fq2\\logs\\debug-core.log"}
+{"time":"2025-03-15T22:22:49.7540653+05:30","level":"INFO","msg":"created new stream","id":"0k0q9fq2"}
+{"time":"2025-03-15T22:22:49.7540653+05:30","level":"INFO","msg":"stream: started","id":"0k0q9fq2"}
+{"time":"2025-03-15T22:22:49.7540653+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"0k0q9fq2"}
+{"time":"2025-03-15T22:22:49.7540653+05:30","level":"INFO","msg":"sender: started","stream_id":"0k0q9fq2"}
+{"time":"2025-03-15T22:22:49.7540653+05:30","level":"INFO","msg":"handler: started","stream_id":"0k0q9fq2"}
+{"time":"2025-03-15T22:22:50.5653664+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T22:23:26.74944+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T22:23:26.7528919+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T22:23:27.7716505+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.613087,"progress":"176B/176B"},{"desc":"uploading config.yaml","runtime_seconds":0.2685542,"progress":"951B/951B"}],"total_operations":2}}
+{"time":"2025-03-15T22:23:28.5263367+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T22:23:28.9932958+05:30","level":"INFO","msg":"stream: closing","id":"0k0q9fq2"}
+{"time":"2025-03-15T22:23:28.9932958+05:30","level":"INFO","msg":"handler: closed","stream_id":"0k0q9fq2"}
+{"time":"2025-03-15T22:23:28.9932958+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"0k0q9fq2"}
+{"time":"2025-03-15T22:23:28.9932958+05:30","level":"INFO","msg":"sender: closed","stream_id":"0k0q9fq2"}
+{"time":"2025-03-15T22:23:28.9938088+05:30","level":"INFO","msg":"stream: closed","id":"0k0q9fq2"}

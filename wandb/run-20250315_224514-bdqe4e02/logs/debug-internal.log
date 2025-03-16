@@ -1,0 +1,16 @@
+{"time":"2025-03-15T22:45:14.1425059+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_224514-bdqe4e02\\logs\\debug-core.log"}
+{"time":"2025-03-15T22:45:14.2675919+05:30","level":"INFO","msg":"created new stream","id":"bdqe4e02"}
+{"time":"2025-03-15T22:45:14.268153+05:30","level":"INFO","msg":"sender: started","stream_id":"bdqe4e02"}
+{"time":"2025-03-15T22:45:14.268153+05:30","level":"INFO","msg":"handler: started","stream_id":"bdqe4e02"}
+{"time":"2025-03-15T22:45:14.268153+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"bdqe4e02"}
+{"time":"2025-03-15T22:45:14.268153+05:30","level":"INFO","msg":"stream: started","id":"bdqe4e02"}
+{"time":"2025-03-15T22:45:14.9102662+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T22:45:59.8597203+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T22:45:59.8605915+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T22:46:00.8825162+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.3779439,"progress":"522B/522B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.3779439,"progress":"179B/179B"}],"total_operations":2}}
+{"time":"2025-03-15T22:46:01.5508875+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T22:46:02.5902274+05:30","level":"INFO","msg":"stream: closing","id":"bdqe4e02"}
+{"time":"2025-03-15T22:46:02.5902274+05:30","level":"INFO","msg":"handler: closed","stream_id":"bdqe4e02"}
+{"time":"2025-03-15T22:46:02.5902274+05:30","level":"INFO","msg":"sender: closed","stream_id":"bdqe4e02"}
+{"time":"2025-03-15T22:46:02.5902274+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"bdqe4e02"}
+{"time":"2025-03-15T22:46:02.5907458+05:30","level":"INFO","msg":"stream: closed","id":"bdqe4e02"}

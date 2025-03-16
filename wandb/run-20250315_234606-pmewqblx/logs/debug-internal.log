@@ -1,0 +1,16 @@
+{"time":"2025-03-15T23:46:06.8563916+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_234606-pmewqblx\\logs\\debug-core.log"}
+{"time":"2025-03-15T23:46:07.0019647+05:30","level":"INFO","msg":"created new stream","id":"pmewqblx"}
+{"time":"2025-03-15T23:46:07.0019647+05:30","level":"INFO","msg":"stream: started","id":"pmewqblx"}
+{"time":"2025-03-15T23:46:07.0019647+05:30","level":"INFO","msg":"handler: started","stream_id":"pmewqblx"}
+{"time":"2025-03-15T23:46:07.0019647+05:30","level":"INFO","msg":"sender: started","stream_id":"pmewqblx"}
+{"time":"2025-03-15T23:46:07.0019647+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"pmewqblx"}
+{"time":"2025-03-15T23:46:07.3986134+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T23:47:06.2427799+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T23:47:06.2442067+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T23:47:07.1944111+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T23:47:07.2637352+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 7-10, summary, console lines 7-10","runtime_seconds":0.0693241}],"total_operations":1}}
+{"time":"2025-03-15T23:47:07.5635042+05:30","level":"INFO","msg":"stream: closing","id":"pmewqblx"}
+{"time":"2025-03-15T23:47:07.5635042+05:30","level":"INFO","msg":"handler: closed","stream_id":"pmewqblx"}
+{"time":"2025-03-15T23:47:07.5635042+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"pmewqblx"}
+{"time":"2025-03-15T23:47:07.5635042+05:30","level":"INFO","msg":"sender: closed","stream_id":"pmewqblx"}
+{"time":"2025-03-15T23:47:07.5640196+05:30","level":"INFO","msg":"stream: closed","id":"pmewqblx"}

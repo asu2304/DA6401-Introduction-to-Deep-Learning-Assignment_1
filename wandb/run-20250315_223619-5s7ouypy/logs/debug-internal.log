@@ -1,0 +1,16 @@
+{"time":"2025-03-15T22:36:20.0108315+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_223619-5s7ouypy\\logs\\debug-core.log"}
+{"time":"2025-03-15T22:36:20.134857+05:30","level":"INFO","msg":"created new stream","id":"5s7ouypy"}
+{"time":"2025-03-15T22:36:20.134857+05:30","level":"INFO","msg":"stream: started","id":"5s7ouypy"}
+{"time":"2025-03-15T22:36:20.134857+05:30","level":"INFO","msg":"handler: started","stream_id":"5s7ouypy"}
+{"time":"2025-03-15T22:36:20.134857+05:30","level":"INFO","msg":"sender: started","stream_id":"5s7ouypy"}
+{"time":"2025-03-15T22:36:20.1354131+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"5s7ouypy"}
+{"time":"2025-03-15T22:36:20.5664657+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T22:36:51.7055291+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T22:36:51.7066733+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T22:36:52.7252085+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4801569,"progress":"276B/276B"},{"desc":"uploading config.yaml","runtime_seconds":0.0447049,"progress":"948B/948B"}],"total_operations":2}}
+{"time":"2025-03-15T22:36:53.1734009+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T22:36:53.6971295+05:30","level":"INFO","msg":"stream: closing","id":"5s7ouypy"}
+{"time":"2025-03-15T22:36:53.6971295+05:30","level":"INFO","msg":"handler: closed","stream_id":"5s7ouypy"}
+{"time":"2025-03-15T22:36:53.6971295+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"5s7ouypy"}
+{"time":"2025-03-15T22:36:53.6971295+05:30","level":"INFO","msg":"sender: closed","stream_id":"5s7ouypy"}
+{"time":"2025-03-15T22:36:53.6978537+05:30","level":"INFO","msg":"stream: closed","id":"5s7ouypy"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-15T23:14:00.2264497+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_231400-ceg2fz5o\\logs\\debug-core.log"}
+{"time":"2025-03-15T23:14:00.3540459+05:30","level":"INFO","msg":"created new stream","id":"ceg2fz5o"}
+{"time":"2025-03-15T23:14:00.3540459+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ceg2fz5o"}
+{"time":"2025-03-15T23:14:00.354581+05:30","level":"INFO","msg":"handler: started","stream_id":"ceg2fz5o"}
+{"time":"2025-03-15T23:14:00.354581+05:30","level":"INFO","msg":"stream: started","id":"ceg2fz5o"}
+{"time":"2025-03-15T23:14:00.354581+05:30","level":"INFO","msg":"sender: started","stream_id":"ceg2fz5o"}
+{"time":"2025-03-15T23:14:00.7668933+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T23:16:14.1948373+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T23:16:14.1965298+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T23:16:15.2121789+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.1852255,"progress":"522B/522B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.1852255,"progress":"183B/183B"}],"total_operations":2}}
+{"time":"2025-03-15T23:16:15.7451789+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T23:16:17.2980805+05:30","level":"INFO","msg":"stream: closing","id":"ceg2fz5o"}
+{"time":"2025-03-15T23:16:17.2980805+05:30","level":"INFO","msg":"handler: closed","stream_id":"ceg2fz5o"}
+{"time":"2025-03-15T23:16:17.2980805+05:30","level":"INFO","msg":"sender: closed","stream_id":"ceg2fz5o"}
+{"time":"2025-03-15T23:16:17.2980805+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ceg2fz5o"}
+{"time":"2025-03-15T23:16:17.2986507+05:30","level":"INFO","msg":"stream: closed","id":"ceg2fz5o"}

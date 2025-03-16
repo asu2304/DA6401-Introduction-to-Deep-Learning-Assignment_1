@@ -1,0 +1,8 @@
+C:\Users\Ashutosh Patidar\AppData\Local\Temp\ipykernel_2476\1821882276.py:75: RuntimeWarning: invalid value encountered in subtract
+  exp_x = np.exp(X - np.max(X, axis = 1, keepdims=True))
+epoch: 0, train_loss:nan, val_accuracy: 0.1033
+epoch: 1, train_loss:nan, val_accuracy: 0.1033
+epoch: 2, train_loss:nan, val_accuracy: 0.1033
+epoch: 3, train_loss:nan, val_accuracy: 0.1033
+epoch: 4, train_loss:nan, val_accuracy: 0.1033
+test_accuracy: 0.1000

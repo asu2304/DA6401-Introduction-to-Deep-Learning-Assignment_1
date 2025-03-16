@@ -1,0 +1,16 @@
+{"time":"2025-03-15T23:06:52.3423362+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_230652-87pxkkm1\\logs\\debug-core.log"}
+{"time":"2025-03-15T23:06:52.467065+05:30","level":"INFO","msg":"created new stream","id":"87pxkkm1"}
+{"time":"2025-03-15T23:06:52.4675982+05:30","level":"INFO","msg":"handler: started","stream_id":"87pxkkm1"}
+{"time":"2025-03-15T23:06:52.4675982+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"87pxkkm1"}
+{"time":"2025-03-15T23:06:52.4675982+05:30","level":"INFO","msg":"sender: started","stream_id":"87pxkkm1"}
+{"time":"2025-03-15T23:06:52.4675982+05:30","level":"INFO","msg":"stream: started","id":"87pxkkm1"}
+{"time":"2025-03-15T23:06:52.9204288+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T23:07:13.0064581+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T23:07:13.0072211+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T23:07:14.0255081+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6228493,"progress":"524B/524B"},{"desc":"uploading config.yaml","runtime_seconds":0.275986,"progress":"962B/962B"}],"total_operations":2}}
+{"time":"2025-03-15T23:07:14.3325528+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T23:07:15.1772729+05:30","level":"INFO","msg":"stream: closing","id":"87pxkkm1"}
+{"time":"2025-03-15T23:07:15.1779529+05:30","level":"INFO","msg":"handler: closed","stream_id":"87pxkkm1"}
+{"time":"2025-03-15T23:07:15.1779529+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"87pxkkm1"}
+{"time":"2025-03-15T23:07:15.1779529+05:30","level":"INFO","msg":"sender: closed","stream_id":"87pxkkm1"}
+{"time":"2025-03-15T23:07:15.1779529+05:30","level":"INFO","msg":"stream: closed","id":"87pxkkm1"}

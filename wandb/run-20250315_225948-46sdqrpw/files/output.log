@@ -1,0 +1,13 @@
+C:\Users\Ashutosh Patidar\AppData\Local\Temp\ipykernel_2476\1821882276.py:290: RuntimeWarning: invalid value encountered in scalar multiply
+  loss = -np.mean(np.sum(batch_y * np.log(neuron_outputs[-1] + 1e-10), axis = 1)) +  (weight_decay/2) * l2_norm_params
+epoch: 0, train_loss:nan, val_accuracy: 0.0975
+epoch: 1, train_loss:nan, val_accuracy: 0.0949
+epoch: 2, train_loss:nan, val_accuracy: 0.0949
+epoch: 3, train_loss:nan, val_accuracy: 0.0949
+epoch: 4, train_loss:nan, val_accuracy: 0.0949
+epoch: 5, train_loss:nan, val_accuracy: 0.0949
+epoch: 6, train_loss:nan, val_accuracy: 0.0949
+epoch: 7, train_loss:nan, val_accuracy: 0.0949
+epoch: 8, train_loss:nan, val_accuracy: 0.0949
+epoch: 9, train_loss:nan, val_accuracy: 0.0949
+test_accuracy: 0.1000

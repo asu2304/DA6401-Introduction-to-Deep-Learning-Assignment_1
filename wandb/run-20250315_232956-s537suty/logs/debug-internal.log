@@ -1,0 +1,16 @@
+{"time":"2025-03-15T23:29:56.678407+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_232956-s537suty\\logs\\debug-core.log"}
+{"time":"2025-03-15T23:29:56.833825+05:30","level":"INFO","msg":"created new stream","id":"s537suty"}
+{"time":"2025-03-15T23:29:56.8341328+05:30","level":"INFO","msg":"stream: started","id":"s537suty"}
+{"time":"2025-03-15T23:29:56.8351381+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"s537suty"}
+{"time":"2025-03-15T23:29:56.8351381+05:30","level":"INFO","msg":"handler: started","stream_id":"s537suty"}
+{"time":"2025-03-15T23:29:56.8351381+05:30","level":"INFO","msg":"sender: started","stream_id":"s537suty"}
+{"time":"2025-03-15T23:29:57.6337427+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T23:30:34.8185961+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T23:30:34.8215158+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T23:30:35.8612455+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.7218264,"progress":"272B/272B"},{"desc":"uploading config.yaml","runtime_seconds":0.428726,"progress":"962B/962B"}],"total_operations":2}}
+{"time":"2025-03-15T23:30:36.4227916+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T23:30:36.8189688+05:30","level":"INFO","msg":"stream: closing","id":"s537suty"}
+{"time":"2025-03-15T23:30:36.8189688+05:30","level":"INFO","msg":"sender: closed","stream_id":"s537suty"}
+{"time":"2025-03-15T23:30:36.8195961+05:30","level":"INFO","msg":"handler: closed","stream_id":"s537suty"}
+{"time":"2025-03-15T23:30:36.8195961+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"s537suty"}
+{"time":"2025-03-15T23:30:36.8195961+05:30","level":"INFO","msg":"stream: closed","id":"s537suty"}

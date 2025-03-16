@@ -1,0 +1,16 @@
+{"time":"2025-03-15T22:31:04.5208885+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Ashutosh Patidar\\OneDrive\\Documents\\GitHub\\Assignment_1_Deep_Learning\\wandb\\run-20250315_223104-ojnlkodi\\logs\\debug-core.log"}
+{"time":"2025-03-15T22:31:04.6486014+05:30","level":"INFO","msg":"created new stream","id":"ojnlkodi"}
+{"time":"2025-03-15T22:31:04.6486014+05:30","level":"INFO","msg":"stream: started","id":"ojnlkodi"}
+{"time":"2025-03-15T22:31:04.6486014+05:30","level":"INFO","msg":"handler: started","stream_id":"ojnlkodi"}
+{"time":"2025-03-15T22:31:04.6486014+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ojnlkodi"}
+{"time":"2025-03-15T22:31:04.6491486+05:30","level":"INFO","msg":"sender: started","stream_id":"ojnlkodi"}
+{"time":"2025-03-15T22:31:05.2501695+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T22:34:08.6585276+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T22:34:08.6596231+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T22:34:09.6727976+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.291873,"progress":"522B/522B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.291873,"progress":"181B/181B"}],"total_operations":2}}
+{"time":"2025-03-15T22:34:10.1112499+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T22:34:10.5787282+05:30","level":"INFO","msg":"stream: closing","id":"ojnlkodi"}
+{"time":"2025-03-15T22:34:10.5787282+05:30","level":"INFO","msg":"handler: closed","stream_id":"ojnlkodi"}
+{"time":"2025-03-15T22:34:10.5787282+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ojnlkodi"}
+{"time":"2025-03-15T22:34:10.5787282+05:30","level":"INFO","msg":"sender: closed","stream_id":"ojnlkodi"}
+{"time":"2025-03-15T22:34:10.5793966+05:30","level":"INFO","msg":"stream: closed","id":"ojnlkodi"}
