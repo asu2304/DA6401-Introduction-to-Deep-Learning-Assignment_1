@@ -100,10 +100,10 @@ wrapt==1.17.2
 
 
 TO RUN THE SWEEP: 
-run: python question4(sweep_run).py
+run: ```python question4(sweep_run).py```
 
 To RUN THE train.py
-run: python trian.py
+run: ```python trian.py```
 
 there are seperate file whose codes are implemented in relevant files with there names as question names. while all the hyperparameters are implemented in trin.py which you can run the same way as described in the code specifications in the assignment.
 
