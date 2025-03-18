@@ -1,9 +1,6 @@
-# msq vs cce general case
-
 import numpy as np 
-from keras.datasets import mnist, fashion_mnist # used just to get the data
+from keras.datasets import fashion_mnist # used just to get the data
 import wandb
-import argparse
 
 # defining a backprop_from_scratch to do all.
 class backprop_from_scratch:
@@ -135,7 +132,7 @@ class backprop_from_scratch:
             return neuron_outputs
 
     
-    def backword_pass(self, X, y, neuron_outputs, learning_rate, t, optimizer, loss_function, weight_decay, epsilon): 
+    def backword_pass(self, X, y, neuron_outputs, learning_rate, t, optimizer, loss_function, weight_decay): 
         
         # compute the gradient at given value of params
         batch_size = len(X)
@@ -197,8 +194,8 @@ class backprop_from_scratch:
                     # we need to change the learning rate at each iteration as per history accumulated for the current layer w and b
                     self.history_weights[i] = self.beta_1 * self.history_weights[i] + (1 - self.beta_1) * (dw ** 2)
                     self.history_bias[i] = self.beta_1 * self.history_bias[i] + (1 - self.beta_1) * (db ** 2) 
-                    self.weights[i] -= dw * learning_rate / np.sqrt(self.history_weights[i] + epsilon)
-                    self.biases[i] -= db * learning_rate / np.sqrt(self.history_bias[i] + epsilon)
+                    self.weights[i] -= dw * learning_rate / np.sqrt(self.history_weights[i] + 1e-12)
+                    self.biases[i] -= db * learning_rate / np.sqrt(self.history_bias[i] + 1e-12)
     
                 elif optimizer == 'Adam':
                     
@@ -211,8 +208,8 @@ class backprop_from_scratch:
                     self.history_bias[i] = self.beta_2 * self.history_bias[i] + (1 - self.beta_2) * (db ** 2) 
         
                     # implementing the adam rule for update with bias corrected
-                    self.weights[i] -= self.weights_velocity[i]/(1 - self.beta_1 ** t) * learning_rate / np.sqrt(self.history_weights[i] / (1 - self.beta_2** t) + epsilon)
-                    self.biases[i] -= self.bias_velocity[i]/(1 - self.beta_1 ** t) * learning_rate / np.sqrt(self.history_bias[i] / (1 - self.beta_2 ** t) + epsilon) 
+                    self.weights[i] -= self.weights_velocity[i]/(1 - self.beta_1 ** t) * learning_rate / np.sqrt(self.history_weights[i] / (1 - self.beta_2** t) + 1e-12)
+                    self.biases[i] -= self.bias_velocity[i]/(1 - self.beta_1 ** t) * learning_rate / np.sqrt(self.history_bias[i] / (1 - self.beta_2 ** t) + 1e-12) 
     
                 elif optimizer == 'Nadam':
                     
@@ -225,8 +222,8 @@ class backprop_from_scratch:
                     self.history_bias[i] = self.beta_2 * self.history_bias[i] + (1 - self.beta_2) * (db ** 2) 
                     
                     # implementing the nadam rule for update with bias corrected
-                    self.weights[i] -= ((self.beta_1 * self.weights_velocity[i]) + (1 - self.beta_1) * dw)/(1 - self.beta_1 ** t) * learning_rate / np.sqrt(self.history_weights[i] / (1 - self.beta_2** t) + epsilon)
-                    self.biases[i] -= ((self.beta_1 * self.bias_velocity[i]) + (1 - self.beta_1) * db)/(1 - self.beta_1 ** t) * learning_rate / np.sqrt(self.history_bias[i] / (1 - self.beta_2 ** t) + epsilon) 
+                    self.weights[i] -= ((self.beta_1 * self.weights_velocity[i]) + (1 - self.beta_1) * dw)/(1 - self.beta_1 ** t) * learning_rate / np.sqrt(self.history_weights[i] / (1 - self.beta_2** t) + 1e-12)
+                    self.biases[i] -= ((self.beta_1 * self.bias_velocity[i]) + (1 - self.beta_1) * db)/(1 - self.beta_1 ** t) * learning_rate / np.sqrt(self.history_bias[i] / (1 - self.beta_2 ** t) + 1e-12) 
                     
         else: # if optimizer is 'NAG'
             
@@ -257,7 +254,7 @@ class backprop_from_scratch:
                 self.biases[i] -= self.bias_velocity[i] * learning_rate
     
     # function to train the network
-    def train(self, X_train, y_train, X_val, y_val, epochs=50, learning_rate=0.001, batch_size=32, optimizer="Adam", beta_1=0.900, beta_2=0.999, loss_function='categorical_cross_entropy', weight_decay = 0, activation_function='ReLu', epsilon = 1e-6): # setting RMS_Prop as default optimizer
+    def train(self, X_train, y_train, X_val, y_val, epochs=50, learning_rate=0.001, batch_size=32, optimizer="NAG", beta_1=0.900, beta_2=0.999, loss_function='categorical_cross_entropy', weight_decay = 0, activation_function='ReLu'): # setting RMS_Prop as default optimizer
         
         self.beta_1 = beta_1
         self.beta_2 = beta_2
@@ -300,7 +297,7 @@ class backprop_from_scratch:
                 batch_num += 1
                 
                 # backprop: computing the gradient and making an update in backwork pass func
-                self.backword_pass(batch_x, batch_y, neuron_outputs, learning_rate, batch_num, optimizer, loss_function, weight_decay, epsilon)
+                self.backword_pass(batch_x, batch_y, neuron_outputs, learning_rate, batch_num, optimizer, loss_function, weight_decay)
             
             average_loss = total_loss/batch_num
             
@@ -317,64 +314,25 @@ class backprop_from_scratch:
         neuron_outputs = self.forward_pass(X, learning_rate)
         return np.argmax(neuron_outputs[-1], axis=1)
 
-if __name__ == "__main__":
+def sweep_train():
 
-    wandb.login()
-    
-    parser = argparse.ArgumentParser(description='Train a neural network with backpropagation from scratch.')
-    
-    parser.add_argument('-wp', '--wandb_project', type=str, default="<project_name>", help='Project name used to track experiments in Weights & Biases dashboard')
-    
-    parser.add_argument('-we', '--wandb_entity', type=str, default='da24s006-indian-institue-of-technology-madras-', help='Wandb Entity used to track experiments in the Weights & Biases dashboard')
-    
-    parser.add_argument('-d', '--dataset', type=str, default='fashion_mnist', choices=['mnist', 'fashion_mnist'], help='Dataset to use')
-    
-    parser.add_argument('-e', '--epochs', type=int, default=10, help='Number of epochs to train neural network')
-    
-    parser.add_argument('-b', '--batch_size', type=int, default=32, help='Batch size used to train neural network')
-    
-    parser.add_argument('-l', '--loss', type=str, default='cross_entropy', choices=['mean_squared_error', 'cross_entropy'], help='Loss function')
-    
-    parser.add_argument('-o', '--optimizer', type=str, default='Adam', choices=['sgd', 'momentum', 'nag', 'rmsprop', 'adam', 'nadam'], help='Optimizer type')
-    
-    parser.add_argument('-lr', '--learning_rate', type=float, default=0.001, help='Learning rate used to optimize model parameters')
-    
-    parser.add_argument('-m', '--momentum', type=float, default=0.9, help='Momentum used by momentum and nag optimizers')
-    
-    parser.add_argument('-beta', '--beta', type=float, default=0.9, help='Beta used by rmsprop optimizer')
-    
-    parser.add_argument('-beta1', '--beta1', type=float, default=0.9, help='Beta1 used by adam and nadam optimizers')
-    
-    parser.add_argument('-beta2', '--beta2', type=float, default=0.999, help='Beta2 used by adam and nadam optimizers')
-    
-    parser.add_argument('-eps', '--epsilon', type=float, default=0.0000000001, help='Epsilon used by optimizers')
-    
-    parser.add_argument('-w_d', '--weight_decay', type=float, default=0.0, help='Weight decay used by optimizers')
-    
-    parser.add_argument('-w_i', '--weight_init', type=str, default='Xavier', choices=['random', 'Xavier'], help='Weight initialization method')
-    
-    parser.add_argument('-nhl', '--num_layers', type=int, default=3, help='Number of hidden layers used in feedforward neural network')
-    
-    parser.add_argument('-sz', '--hidden_size', type=int, default=128, help='Number of hidden neurons in a feedforward layer')
-    
-    parser.add_argument('-a', '--activation', type=str, default='ReLU', choices=['identity', 'sigmoid', 'tanh', 'ReLU'], help='Activation function')
+    wandb.init()
+    config = wandb.config
 
-    args = parser.parse_args()
-    config = vars(args)
+    sweep_name = f"hl_{config.hidden_num}_bs_{config.batch_size}_ac_{config.activation_function}"
+    wandb.run.name = sweep_name
+    
+    (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
 
-    wandb.init(project=config['wandb_project'], entity=config['wandb_entity'], config=config)
-
-    if config['dataset'] == 'mnist':
-        (train_images, train_labels), (test_images, test_labels) = mnist.load_data()
-    elif config['dataset'] == 'fashion_mnist':
-        (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
-    else:
-        raise ValueError(f"Unknown dataset: {config.dataset}")
+    # to reproduce the results
+    # np.random.seed(10)
+    
+    # making the data ready to train the model
     
     # Splitting the trainig data into train and validation
     indices = np.arange(train_images.shape[0])
     np.random.shuffle(indices)
-    train_size = int(0.9 * len(train_images)) # using
+    train_size = 0.9 * len(train_images) # usnig 
     
     train_x = train_images[indices[:train_size]]
     train_y = train_labels[indices[:train_size]]
@@ -393,74 +351,61 @@ if __name__ == "__main__":
     test_images = test_images.reshape(test_images.shape[0], -1) / 255
     test_labels = np.eye(num_classes)[test_labels]
 
-    # making the passed arguement names consistent with the code i wrote 
-
-    # setting momentum and beta equal to beta1 as per my implementation
-    if config['optimizer'] == 'momentum':
-        config['beta1'] = config['momentum']
-    elif config['optimizer'] == 'rmsprop':
-        config['beta1'] = config['beta']
-
-    # loss function
-    if config['loss'] == 'mean_squared_error':
-        config['loss'] = 'mean_squared'
-    else: 
-        config['loss'] = 'categorical_cross_entropy'
-
-    # optimizers
-    # ['sgd', 'momentum', 'nag', 'rmsprop', 'adam', 'nadam']
-    # sgd name is same
-    if config['optimizer'] == 'momentum':
-        config['optimizer'] = 'momentum sgd'
-    elif config['optimizer'] == 'nag':
-        config['optimizer'] = 'NAG'
-    elif config['optimizer'] == 'rmsprop':
-        config['optimizer'] = 'RMS_Prop'
-    elif config['optimizer'] == 'adam':
-        config['optimizer'] = 'Adam'
-    elif config['optimizer'] == 'nadam':
-        config['optimizer'] = 'Nadam'
-
-    # initialization
-    if config['weight_init'] == 'Xavier':
-        config['weight_init'] = 'xavier'
-    # same name for random 
-
-    # activation function
-    # ['identity', 'sigmoid', 'tanh', 'ReLU']
-    if config['activation'] == 'ReLU':
-        config['activation'] = 'ReLu'
-    elif config['activation'] == 'sigmoid':
-        config['activation'] = 'Sigmoid'
-    elif config['activation'] == 'identity':
-        config['activation'] = 'Linear'
-        # same name for tanh
-
-    
     # now let's create and train the network
-    model = backprop_from_scratch([784] + [config['hidden_size']] * config['num_layers'] + [10], 
-                                  config['activation'], 
-                                  config['weight_init'])
+    model = backprop_from_scratch([784] + [config.hidden_size] * config.hidden_num + [10], 
+                                  config.activation_function, 
+                                  config.initialization)
     
     model.train(train_x, 
                 train_y, 
                 val_x, 
                 val_y, 
-                config['epochs'], 
-                config['learning_rate'], 
-                config['batch_size'], 
-                config['optimizer'], 
-                config['beta1'], 
-                config['beta2'], 
-                config['loss'], 
-                config['weight_decay'], 
-                config['activation'],
-                config['epsilon']
+                config.epochs, 
+                config.Learning_rate, 
+                config.batch_size, 
+                config.optimizer, 
+                config.beta_1, 
+                config.beta_2, 
+                config.loss_function, 
+                config.weight_decay, 
+                config.activation_function
                )
 
     # now let's evaluate on the test set
-    test_predictions = model.predict(test_images, config['learning_rate']) 
+    test_predictions = model.predict(test_images, config.Learning_rate) 
     test_accuracy = np.mean(test_predictions == np.argmax(test_labels, axis = 1))
     print(f"test_accuracy:{test_accuracy: .4f}") 
     wandb.log({'test_accuracy': test_accuracy})
+
+# sweep configs
+sweep_configurations = {
+    "method": "random", 
+    "metric": {
+        "name": "val_accuracy",
+        "goal": "maximize"
+    },
+    "parameters": {
+        "epochs": {"values": [5, 10]},
+        "hidden_num": {"values": [3, 4, 5]},
+        "hidden_size": {"values": [32, 64, 128]},
+        "weight_decay": {"values": [0.0, 0.0005, 0.5]},
+        "Learning_rate": {"values": [1e-3, 1e-4]},
+        "optimizer": {"values": ["sgd", "momentum sgd", "NAG", "RMS_Prop", "Adam", "Nadam"]},
+        "batch_size": {"values": [16, 32, 64]},
+        "initialization": {"values": ["random", "xavier"]},
+        "activation_function": {"values": ["Sigmoid", "tanh", "ReLu"]},
+        "beta_1": {"values": [0.90]},
+        "beta_2": {"values": [0.99]},
+        "loss_function": {"values": ['categorical_cross_entropy', 'mean_squared']}
+    }
+}
+
+
+
+# executing sweep
+if __name__ == "__main__":
+    # Creating a sweep
+    sweep_id = wandb.sweep(sweep_configurations, project="Question_4")
+    # starting sweep agent
+    wandb.agent(sweep_id, function=sweep_train)
     

@@ -1,9 +1,9 @@
-# msq vs cce general case
 
-import numpy as np 
+import numpy as np # for matrix multiplications
 from keras.datasets import mnist, fashion_mnist # used just to get the data
 import wandb
-import argparse
+import argparse # to take command line arguement
+import matplotlib.pyplot as plt # for consusion matrix
 
 # defining a backprop_from_scratch to do all.
 class backprop_from_scratch:
@@ -323,7 +323,7 @@ if __name__ == "__main__":
     
     parser = argparse.ArgumentParser(description='Train a neural network with backpropagation from scratch.')
     
-    parser.add_argument('-wp', '--wandb_project', type=str, default="<project_name>", help='Project name used to track experiments in Weights & Biases dashboard')
+    parser.add_argument('-wp', '--wandb_project', type=str, default="confusion_matrix_for_the_best_combo", help='Project name used to track experiments in Weights & Biases dashboard')
     
     parser.add_argument('-we', '--wandb_entity', type=str, default='da24s006-indian-institue-of-technology-madras-', help='Wandb Entity used to track experiments in the Weights & Biases dashboard')
     
@@ -335,13 +335,13 @@ if __name__ == "__main__":
     
     parser.add_argument('-l', '--loss', type=str, default='cross_entropy', choices=['mean_squared_error', 'cross_entropy'], help='Loss function')
     
-    parser.add_argument('-o', '--optimizer', type=str, default='Adam', choices=['sgd', 'momentum', 'nag', 'rmsprop', 'adam', 'nadam'], help='Optimizer type')
+    parser.add_argument('-o', '--optimizer', type=str, default='adam', choices=['sgd', 'momentum', 'nag', 'rmsprop', 'adam', 'nadam'], help='Optimizer type')
     
     parser.add_argument('-lr', '--learning_rate', type=float, default=0.001, help='Learning rate used to optimize model parameters')
     
-    parser.add_argument('-m', '--momentum', type=float, default=0.9, help='Momentum used by momentum and nag optimizers')
+    parser.add_argument('-m', '--momentum', type=float, default=0.5, help='Momentum used by momentum and nag optimizers')
     
-    parser.add_argument('-beta', '--beta', type=float, default=0.9, help='Beta used by rmsprop optimizer')
+    parser.add_argument('-beta', '--beta', type=float, default=0.5, help='Beta used by rmsprop optimizer')
     
     parser.add_argument('-beta1', '--beta1', type=float, default=0.9, help='Beta1 used by adam and nadam optimizers')
     
@@ -458,9 +458,40 @@ if __name__ == "__main__":
                 config['epsilon']
                )
 
+    fashion_mnist_labels = {
+    0: "T-shirt/top",
+    1: "Trouser",
+    2: "Pullover",
+    3: "Dress",
+    4: "Coat",
+    5: "Sandal",
+    6: "Shirt",
+    7: "Sneaker",
+    8: "Bag",
+    9: "Ankle boot"
+    }
+    
     # now let's evaluate on the test set
     test_predictions = model.predict(test_images, config['learning_rate']) 
     test_accuracy = np.mean(test_predictions == np.argmax(test_labels, axis = 1))
     print(f"test_accuracy:{test_accuracy: .4f}") 
     wandb.log({'test_accuracy': test_accuracy})
+
+    true_labels = np.argmax(test_labels, axis=1)
+    pred_labels = test_predictions
+    num_classes = len(np.unique(true_labels))
+    conf_matrix = np.zeros((num_classes, num_classes), dtype=int)
     
+    # Populating the confusion matrix
+    for true, pred in zip(true_labels, pred_labels):
+        conf_matrix[true, pred] += 1
+        
+    # Loging confusion matrix to WandB
+    wandb.log({"confusion_matrix": wandb.plot.confusion_matrix(
+        probs=None,
+        y_true=true_labels,
+        preds=pred_labels,
+        class_names=[fashion_mnist_labels[i] for i in range(num_classes)]
+    )})
+
+
