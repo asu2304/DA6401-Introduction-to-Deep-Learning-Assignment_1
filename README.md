@@ -17,7 +17,6 @@ The project requires the following dependencies:
 - TensorFlow 2.19.0
 - PyTorch 2.6.0
 - NumPy 2.1.3
-- Pandas 2.2.3
 - Matplotlib 3.10.1
 - Weights & Biases (wandb)
 
