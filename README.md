@@ -1,7 +1,7 @@
 # DA6401: Introduction to Deep Learning - Assignment 1
 
 ## Assignment Overview
-This repository contains the implementation of **Assignment 1** for the course **DA6401: Introduction to Deep Learning** at **IIT Madras**.
+This repository contains the implementation of **Assignment 1** for the course **DA6401: Introduction to Deep Learning** by **DA24S006**.
 
 ### 📄 Assignment Report  
 The detailed assignment report is available at:  
