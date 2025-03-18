@@ -19,7 +19,6 @@ The project requires the following dependencies:
 - NumPy 2.1.3
 - Pandas 2.2.3
 - Matplotlib 3.10.1
-- scikit-learn
 - Weights & Biases (wandb)
 
 For the complete list of dependencies, refer to `requirements.txt`.
