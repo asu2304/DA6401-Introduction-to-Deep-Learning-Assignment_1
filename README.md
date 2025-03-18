@@ -67,7 +67,7 @@ python train.py [arguments]
 
 ### Example Usage:
 ```sh
-python train.py --wandb_project "my_deep_learning_project" --wandb_entity "ashutosh_patidar" --dataset mnist --epochs 5 --batch_size 32 --optimizer adam --learning_rate 0.01
+python train.py --wandb_project "my_deep_learning_project" --wandb_entity "da24s006-indian-institue-of-technology-madras-" --dataset mnist --epochs 5 --batch_size 32 --optimizer adam --learning_rate 0.01
 ```
 
 ---
@@ -85,11 +85,11 @@ This script is designed to execute a sweep run for hyperparameter tuning, levera
 This repository contains the following question-specific Python files:
 - `question1.py`  
 - `question2.py`  
-- `question4.py`  
-- `question7.py`  
+- `question4(sweep_run).py`  
+- `question7_confusion_matrix.pyy`  
 
 ---
 
 ## 📌 Notes
 - Ensure your environment is set up with the specified Python version and dependencies before running any scripts.
-- Refer to the [Assignment Report](https://wandb.ai/da24s006-indian-institue-of-technology-madras-/Question_4/reports/DA6401-Assignment-report-by-DA24S006--VmlldzoxMTgyOTU5NQ) for detailed explanations and results.
+- Refer to the [Assignment Report](https://wandb.ai/da24s006-indian-institue-of-technology-madras-/Question_4/reports/DA6401-Assignment-report-by-DA24S006--VmlldzoxMTgyOTU5NQ) for answer to each questions for the assignment.
